@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ICADL 2023 - The 25th International Conference on Asia-Pacific Digital Libraries</title>
+  			<meta charset="utf-8">
+  			<meta name="description" content="The 25th International Conference on Asia-Pacific Digital Libraries (ICADL 2023)"/>
+  			<meta name="keywords" content="Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries, ICADL"/>
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- toast notify -->
+				<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+				<script language="javascript" type="text/javascript">
+					/*
+					function getState(){
+			          //do getdata 
+			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+			          console.log(news_list);
+			          for (var i = news_list.length-1; i >=0; i--) {
+			          	if (news_list[i].id=="stop"){
+			          		continue;
+			          	}
+                	notify(news_list[i].innerHTML,"Info");
+            		}
+								
+			         // setTimeout('getState();',1000); //100ms
+					}	
+				  function notify(name,sdate) {
+				    	toastr.success(name,sdate,{positionClass: "toast-top-right"});
+				    	toastr.options.closeButton = false;
+				    	//toastr.options.closeMethod = 'fadeOut';
+				    	//toastr.options.closeDuration = 300;
+				    	//toastr.options.closeEasing = 'swing';
+				    	toastr.options.debug=false;
+				//    	toastr.options.newestOnTop=true;
+				    	toastr.options.progressBar=true;
+				    	//toastr.options.positionClass="toast-top-full-width";
+				    	//toastr.options.preventDuplicates=false;
+				    	toastr.options.onclick=null;
+				    	toastr.options.showDuration=500;
+				    	toastr.options.hideDuration=300;
+				    	toastr.options.timeOut=10000;
+				    	toastr.options.extendedTimeOut=1000;
+				    	toastr.options.showEasing="swing";
+				    	toastr.options.hideEasing="linear";
+				    	toastr.options.showMethod="fadeIn";
+				    	toastr.options.hideMethod="fadeOut";
+				    	toastr.options.closeMethod = "slideUp";
+				  }*/
+				</script>        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <h1>ICADL 2023</h1>
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">  
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-address"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3><a href="https://a-liep.org" target="_blank">ALIEP</a></h3>
+                                            <h3><a href="https://ischools.org/" target="_blank">AP-iConference</a></h3>
+                                        </div>
+                                    </div>
+                                </div>                            	                            
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Registration</h3>
+                                            <p>Oct. 31, 2023</p>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email Us</h3>
+                                            <p>clavenke@ntnu.edu.tw</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+			        <div class="nav-item dropdown">
+                                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Welcome</a>
+				   <div class="dropdown-menu">
+				        <a href="index.html#welcome" title="Welcome" class="dropdown-item">Welcome</a>
+				   	<a href="index.html#Registration" class="dropdown-item">Registration</a>
+				   </div>
+			        </div>	      
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Submission</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#cfp" class="dropdown-item">Call for Papers</a>                                    	
+                                        <a href="index.html#submission" class="dropdown-item">Submission</a>
+                                        <a href="index.html#dates" class="dropdown-item">Important Dates</a>					    
+                                    </div>
+                                </div>		
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Accepted papers</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#accepted" class="dropdown-item">Accepted papers</a>					
+                                    </div>
+                                </div>   			
+			        <a href="index.html#proceedings" title="Welcome" class="nav-link">Proceedings</a>
+				<div class="nav-item dropdown">
+                                    <a href="https://ifdik2023.conf.tw/site/page.aspx?pid=287&sid=1521&lang=en" class="nav-link" target="_blank">Program</a>
+                                </div>		
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">Organizers</a>
+                                </div>		
+				<div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Travel Information</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#hotels" class="dropdown-item">Accommodation &amp; Conference Venues</a>
+                                        <a href="index.html#cars" class="dropdown-item">Transportation options</a>
+                                        <a href="https://eng.taiwan.net.tw/" class="dropdown-item" target="_blank">Welcome to TAIWAN</a>
+                                    </div>
+                                </div>                                								        		                                        
+                            </div>
+                            <div class="ml-auto">                            		
+                                <a class="btn" href="index.html#Registration">Registration</a>
+                            </div>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->	                                                         
+    <div class="content" id="content">   	
+      <div class="wrapper">
+		   	<div class="header">		
+				    <h1 class="logo-name">
+				      <a class="logo-link" href="#welcome" title="" itemprop="name"></a><!-- don't show banner word-->
+				    </h1>					
+				</div>      									
+        <!-- section: welcome -->
+          <section class="welcome" id="welcome"><!--
+            <h2 class="section-title">Welcome</h2> -->
+
+							<p itemprop="description" style="border-top-width:0px;padding-top:120px">
+								<center>
+									<h2>The 25<sup>th</sup> International Conference on Asia-Pacific Digital Libraries (ICADL 2023)</h2><br/>
+									<h3>December 4 - 7, 2023. Taipei, Taiwan<b>*</b>. </h3></center></p>
+							
+							<p itemprop="description"><h4><center>Leveraging Generative Intelligence in Digital Libraries: Towards Human-Machine Collaboration</center></h4></p>
+							
+							
+							<p itemprop="description"><a href="https://icadl.net/">The International Conference on Asia-Pacific Digital Libraries (ICADL)</a>, which started in Hong Kong in 1998 and over the years traveled many countries in the Asia-Pacific region, is a major digital library conference. Along with JCDL and TPDL, ICADL is held annually as one of the three top venues for connecting digital library, computer science, and library and information science communities. This year, ICADL 2023 will be held from December 4th to 7th, 2023 at the National Central Library in Taipei, Taiwan as an onsite face-to-face conference; however, for those who cannot attend, ICADL 2023 will allow them to present their papers online and join sessions.</p>
+							
+							<p>ICADL 2023 will be co-located with the 11<sup>th</sup> Asia-Pacific Conference on Library Information Education and Practice (A-LIEP 2023; <a href="https://a-liep.org" taget="_blank">https://a-liep.org</a>) and the annual meeting of Asia-Pacific chapter of iSchools (AP-iSchools; <a href="https://ischools.org/" target="_blank">https://ischools.org/</a>) under a collective title “2023 International Forum on Data, Information, and Knowledge for Resilient and Trustworthy Digital Societies” (<a href="https://ifdik2023.conf.tw/">IFDIK 2023</a>). Thus, ICADL 2023 will provide an excellent international forum for researchers from not only Asia-Pacific regions but also all over the world to meet people with different backgrounds but common research interests to exchange their cutting-edge knowledge, experience and practices in various relevant issues in digital libraries, Library and Information Science (LIS), and other related fields.</p>
+							<p>The theme for ICADL 2023 is "<b>Leveraging Generative Intelligence in Digital Libraries: Towards Human-Machine Collaboration</b>". As generative artificial intelligence (AI) is gaining widespread use, it has the potential to positively and negatively impact digital libraries and their stakeholders. This conference welcomes papers that explores the role of generative AI in digital libraries and other information intensive environments.</p>
+							<p>Proceedings of ICADL 2023 are going to be published by Springer as an LNCS volume, which is indexed by Scopus. This year, we have the following four submission categories: full papers, short papers, practice papers, and demo/poster papers.</p>
+							<p>The Best Paper and the Best Student Paper will be awarded by the Program Committee and selected among the accepted full papers. Candidates for the Best Student Paper award should have students as first authors. Selected papers will be invited for a special issue to be published with the International Journal on Digital Libraries (IJDL), published by Springer.</p>
+							<p>In order to provide young scholars with guidance from mentors and establish networking opportunities among them, a student symposium will be held in the <a href="https://ifdik2023.conf.tw/">IFDIK 2023</a>. In addition, if there is any interest in organizing workshops, tutorials, and panel sessions in the <a href="https://ifdik2023.conf.tw/">IFDIK 2023</a>, we will consider them on request. Please contact the conference organizers (To: Prof. Hao-Ren Ke (<a href="mailto:clavenke@ntnu.edu.tw">clavenke@ntnu.edu.tw</a>)) with your proposal (including title, background and purposes, topics, workshop/tutorial/panel structure, organizers). Information about accepted events will be put on the website of the  <a href="https://ifdik2023.conf.tw/">IFDIK 2023</a>.</p>
+							<p><b>*</b>Onsite face-to-face conference, allowing those who cannot attend to present their papers online.</p>
+          </section>         
+        <!-- section cfp -->
+          <section class="faqs" id="cfp">
+            <div class="section-header" style="border-top-width:20px;padding-top:50px">
+              <h2>Call for Papers</h2>
+            </div>
+                        <p>Proceedings of ICADL 2023 are going to be published by Springer as an LNCS volume, which is indexed by Scopus. This year, we have the following four submission categories: full papers, short papers, practice papers, and demo/poster papers. </p>
+												<p>If there is any interest for organizing workshops, tutorial, and panel sessions with ICADL 2023, we will consider them on request. Please contact conference organizers (To: Prof. Hao-Ren Ke (<a href="mailto:clavenke@ntnu.edu.tw">clavenke@ntnu.edu.tw</a>)) with your proposal. The information about the accepted events will put on the conference website and we will encourage attendees to join the events.</p>
+												<p>The review for practice paper submissions will put less emphasis on the novelty and more on real world practices and applications of DL technologies in institutions or companies.</p>				
+												
+                   <div class="section-header">
+                        <h3>Topics</h3>                        
+                    </div>
+                    We invite submissions on diverse topics related to digital libraries and related fields including (but not limited to):<p/>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="accordion-1">
+                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
+                                            Information Technologies, Data Science &amp; Applications
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+																					<ul>
+																						<li>Information retrieval and access technologies to digital collections</li>
+																						<li>Data mining and information extraction</li>
+																						<li>IoT and digital libraries</li>
+																						<li>AI for digital libraries</li>
+																						<li>Natural language processing techniques in digital collections</li>
+																						<li>Knowledge discovery from digital libraries content</li>
+																						<li>Recommender systems for digital libraries content</li>
+																						<li>Infrastructures &amp; development of Web Archives</li>
+																						<li>Data science techniques</li>
+																						<li>Semantic Web, linked data, and metadata technologies</li>
+																						<li>Ontologies and knowledge organization systems</li>
+																						<li>Applications and quality assurance of digital libraries</li>
+																						<li>Research data and open access</li>
+																						<li>Visualization, user interface, and user experience</li>
+																						<li>Social networking and collaborative interfaces in digital libraries</li>
+																						<li>Personal information management and personal digital libraries</li>
+																						<li>Information service technologies in digital libraries</li>
+																						<li>Bibliometrics and scholarly communication in digital libraries</li>
+																						<li>Curation and preservation technologies in digital libraries</li>
+																						<li>Information organization support</li>
+																						<li>Novel applications for digital libraries</li>
+																						<li>Pretrained language models and digital libraries</li>
+																						<li>Generating prompts for large language models</li>
+																						<li>Detecting content created by generative AI</li>
+																					</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
+																					Cultural Information, Digital Humanities &amp; Scholarly Data Analysis
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+																						<ul>
+																							<li>Cultural heritage access and analysis</li>
+																							<li>Dealing with history, literature, music in digital libraries</li>
+																							<li>Scholarly data analysis</li>
+																							<li>Scientometrics</li>
+																							<li>Access and usage of Web Archives</li>
+																							<li>Community Informatics</li>
+																							<li>Cultural heritage and museum informatics</li>
+																							<li>Collaborations among archives, libraries, and museums</li>
+																							<li>Collection development and discovery</li>
+																							<li>Digital cultural memory initiatives</li>
+																							<li>Memory organizations in the digital space</li>
+																							<li>Digital preservation and digital curation</li>
+																							<li>Digital library/digital archive infrastructures</li>
+																							<li>Digital library education and digital literacy</li>
+																							<li>Higher education uses of digital collections</li>
+																							<li>Research data infrastructures, management and use</li>
+																							<li>Information policies</li>
+																							<li>Participatory cultural heritage</li>
+																						</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="accordion-2">
+                                <div class="card wow fadeInRight" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
+                                            Social Informatics and Socio-technological Issues in Digital Libraries
+                                        </a>
+                                    </div>
+                                    <div id="collapseSix" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+																						<ul>
+																							<li>Data analytics for social networks</li>
+																							<li>Socio-technical aspects of digital libraries</li>
+																							<li>Sustainability of digital libraries</li>
+																							<li>Research methods for digital libraries during social isolation times</li>
+																							<li>Roles of digital libraries for isolated societies</li>
+																							<li>Digital libraries for learning, collaboration, and organization in the networked environment</li>
+																							<li>Societal and cultural issues in knowledge, information, and data</li>
+																							<li>Intellectual freedom, censorship, misinformation</li>
+																							<li>Intellectual property issues</li>
+																							<li>Policy, legal, and ethical concerns for digital libraries</li>
+																							<li>Social, legal, ethical, financial issues of Web Archives</li>
+																							<li>Social policy issues on digital libraries</li>
+																							<li>Information behavior analysis</li>
+																							<li>Social sciences and digital libraries</li>
+																							<li>Crowdsourcing and user-generated content</li>
+																							<li>Information work and digital libraries</li>
+																							<li>Information economics and digital libraries</li>
+																							<li>Education with digital libraries</li>
+																							<li>Participatory cultures and digital libraries</li>
+																							<li>Digital scholarship and services</li>
+																							<li>Open data initiatives and utilization</li>
+																							<li>Misinformation and disinformation</li>
+																							<li>Impact of generative AI on digital library policy and practice</li>
+																							<li>Generative AI and the digital library user experience</li>
+																						</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          </section>
+        <!-- section: submission -->
+          <section class="submission" id="submission">
+            <div class="section-header"style="border-top-width:20px;padding-top:50px">
+              <h2>Submission</h2>
+            </div>						
+						<p>All submissions must be in English, in PDF format. Papers should follow <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">Springer Computer Science Proceedings guidelines (https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)</a>.
+							All papers are to be submitted via the conference’s EasyChair submission system (<a href="https://easychair.org/conferences/?conf=icadl2023" target="_blank">https://easychair.org/conferences/?conf=icadl2023</a>).</p>
+						<p><h4>Formatting &amp; Submission Lengths</h4></p>
+						<p>The lengths of submissions should be as follows:</p>						
+						<p>
+							<ul>
+								<li>Full papers: 12-14 pages + references</li>
+								<li>Short papers: 6-8 pages + references</li>
+								<li>Practice papers: 6-8 pages + references</li>
+								<li>Demo/poster papers: 4-6 pages + references</li>
+							</ul>
+						</p>	
+						<p>The review process is double-blind. At least 3 Program Committee members will review each submission. The review for practice paper submissions will put less emphasis on the novelty and more on real world practices and applications of DL technologies in institutions or companies. Sufficient time will be given to the oral presentation for accepted papers in all submission categories either in-person or using an online presentation platform to be chosen later (e.g., WebEx). Each accepted paper must be presented by at least one of the co-authors. </p>					
+          </section>
+        <!-- section: dates  -->
+          <section class="dates" id="dates">
+          	<div class="section-header"style="border-top-width:20px;padding-top:50px">
+              <h2>Important Dates</h2>
+            </div>		
+						<p>The schedule is shown below. All the dates are Anywhere on GMT+8 time zone:</p>
+						<p>
+								<ul>
+									<li>Full, Short Research and Practice Papers Submission: <span style="text-decoration:line-through">July 6, 2023</span> <font color='red'> July 20, 2023 (extended)</font></li>
+									<li>Demo/Poster Papers Submission:  July 20, 2023</li>
+
+									<li>Acceptance Notification (All paper categories): <span style="text-decoration:line-through">August 25, 2023</span> <font color='red'>September 8, 2023 (extended)</font></li>
+									<li>Camera Ready Copy of Papers: <span style="text-decoration:line-through">September 10, 2023</span> <font color='red'>September 24, 2023 (extended)</font></li>
+									<li>Conference: December 4 - December 7, 2023</li>								
+								</ul>
+						</p>
+
+          </section>
+                   
+        <!-- section: organizers -->
+          <section class="faqs" id="organizers">
+                    <div class="section-header" class="section-header"style="border-top-width:20px;padding-top:50px">
+                        <h2>Conference Committee</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="accordion-1">
+                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
+                                            Conference co-chairs
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+																					<ul>
+																						<li>Hao-Ren KE (National Taiwan Normal University, Taiwan)</li>
+																					</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
+																					Program Committee co-chairs
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+																						<ul>
+																							<li>Dion Goh (Nanyang Technological University, Singapore)</li>
+																							<li>Sophy Shu-Jiun Chen (Academia Sinica, Taiwan)</li>
+																							<li>Suppawong Tuarob (Mahidol University, Thailand)</li>
+																						</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
+                                          Publicity co-chairs
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            <ul>
+																							<li>Songphan Choemprayong (Chulalongkorn University, Thailand)</li>
+																							<li>Adam Jatowt (University of Innsbruck, Austria)</li>
+																							<li>Chern Li Liew (Victoria University of Wellington, New Zealand)</li>
+																							<li>Akira Maeda (Ritsumeikan University, Japan)</li>
+																							<li>Maciej Ogrodniczuk (Polish Academy of Sciences, Poland)</li>
+																							<li>Sue Yeon Syn (Catholic University of America, USA)</li>
+																						</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.4s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
+                                          Web chairs
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            <ul>
+																							<li>Shun-Hong Sie (National Taiwan Normal University, Taiwan)</li>
+																						</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="accordion-2">
+                                <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
+                                            Student symposium co-chairs							
+                                        </a>
+                                    </div>
+                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            <ul>
+																							<li>I-Chin Wu (National Taiwan Normal University, Taiwan)</li>
+																							<li>Masaki Takeda (University of Tsukuba, Japan)</li>
+																						</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <p/>
+                        <h4>Hosted</h4>                        
+                        <ul>
+                        	<li>Hosted by National Taiwan Normal University and National Central Library</li>
+													<li>In collaboration with Asia-Pacific Chapter of iSchools (AP-iSchools)</li>
+													<li>In collaboration with Asia-Pacific Library and Information Education and Practice (A-LIEP)</li>
+                        </ul>
+          </section>
+        <!-- accepted papers -->
+        <section class="accepted" id="accepted">
+        	<p itemprop="description" style="border-top-width:0px;padding-top:50px"><h3>Accepted papers</h3></p>
+						<p/>
+						<h4>Full papers</h4>
+						<table>
+								<tr><td>Line Detection in Historical Index Tables: Baseline Evaluations on a New Image Dataset	(Guillaume Bernard, Casey Wall, Mélodie Boillet, Mickaël Coustaty, Christopher Kermorvant and Antoine Doucet)</td></tr>       	
+								<tr><td>Benchmarking NAS for Article Separation in Historical Newspapers (Nancy Girdhar, Mickael Coustaty and Antoine Doucet)</td></tr>
+								<tr><td>STRAS: A Semantic Textual-cues Leveraged Rule-based Approach for Article Separation in Historical Newspapers	(Nancy Girdhar, Mickael Coustaty and Antoine Doucet)</td></tr>       	
+								<tr><td>Enhancing Learning of Chinese Poem Creation through Auto-Generation and Evaluation System	(Yan Cong and Masao Takaku)</td></tr>								
+								<tr><td>SLHCat: Mapping Wikipedia Categories and Lists to DBpedia by Leveraging Semantic, Lexical, and Hierarchical Features	(Zhaoyi Wang, Zhenyang Zhang and Mizuho Iwaihara)</td></tr>       	
+								<tr><td>Web Page Evaluation and Opinion Formation on Controversial Search Topics	(Ryo Hagiwara and Takehiro Yamamoto)</td></tr>
+								<tr><td>An Empirical Analysis of Newcomers’ Contributions to Software-Engineering Conferences	(Rand Alchokr, Jacob Krüger, Yusra Shakeel, Gunter Saake and Thomas Leich)</td></tr>       	
+								<tr><td>Personalized Treasure Hunt Game for Proactive Museum Appreciation by Analyzing Guide App Operation Log	(Jinsong Yu, Shio Takidaira, Tsukasa Sawaura, Yoshiyuki Shoji, Takehiro Yamamoto, Yusuke Yamamoto, Hiroaki Ohshima, Kenro Aihara and Noriko Kando)</td></tr>								
+								<tr><td>Aspect-Based Sentiment Analysis of Racial Issues in Singapore: Enhancing Model Performance using ChatGPT	(Manoj Reddy Tudi, Jin-Cheon Na, Meky Liu, Hongjin Chen, Yiqing Dai and Li Yang)</td></tr>       	
+								<tr><td>Creating Digital LAM Content for Schools: Modelling User Involvement in Multi-Organisational Context	(Riitta Peltonen and Marko Nieminen)</td></tr>
+								<tr><td>Unveiling Archive Users: Understanding their Characteristics and Motivations	(Luana Ponte, Inês Koch and Carla Teixeira Lopes)</td></tr>       	
+								<tr><td>The openness of digital archives in Japanese universities and its opportunities	(Widiatmoko Adi Putranto, Regina Dwi Shalsa Mayzana and Emi Ishita)</td></tr>								
+								<tr><td>Leveraging MRC Framework for Research Contribution Patterns Identification in Citation Sentences	(Yang Zhao, Zhixiong Zhang and Yue Xiao)</td></tr>       	
+								<tr><td>Cited But Not Archived: Analyzing the Status of Code References in Scholarly Articles	(Emily Escamilla, Martin Klein, Talya Cooper, Vicky Rampin, Michele Weigle and Michael Nelson)</td></tr>
+								<tr><td>Towards Leveraging Multi-Perspective Peer Review Summaries for Scientific Document Summarization	(Sandeep Kumar, Guneet Singh Kohli, Tirthankar Ghosal and Asif Ekbal)</td></tr>       	
+						</table>		
+						<p/>
+						<h4>Short papers</h4>
+						<table>
+								<tr><td>Structured Explanations for Dynamic Systems Using Causal Schemas	(Robert Allen)</td></tr>       	
+								<tr><td>Cultural Research Trends of Taiwan’s Indigenous Peoples, 2000–2021: Bibliometrics and Content Analysis	(Chao-Chen Chen, Yun-Fang Tu, Yi-Chin Chen, Aciang Iku-Silan and Fang-Ya Chen)</td></tr>
+								<tr><td>Evaluating the Use of Generative LLMs for Intralingual Diachronic Translation of Middle-Polish Texts into Contemporary Polish	(Cezary Klamra, Katarzyna Kryńska and Maciej Ogrodniczuk)</td></tr>       	
+								<tr><td>ReviVal: Towards Automatically Evaluating the Informativeness of Peer Reviews	(Rajeev Verma, Tirthankar Ghosal, Saprativa Bhattacharjee, Asif Ekbal and Pushpak Bhattacharyya)</td></tr>								
+								<tr><td>Integration between humanities and technology: Using digital humanities technology to read the Gospel of Matthew	(Fang-Ya Chen, Chao-Chen Chen, Yun-Fang Tu and Hsiu-Ling Huang)</td></tr>       	
+								<tr><td>Emerging Trends in Content Management Systems (CMSs) for Library Websites: A Study of Selected Academic Libraries in the Philippines	(Marvin Factor, Josephine Maghari, Yugosto Balbas and April Manabat)</td></tr>
+								<tr><td>Increasing Reproducibility in Science by Interlinking Semantic Artifact Descriptions in a Knowledge Graph	(Hassan Hussein, Kheir Eddine Farfar, Allard Oelen, Oliver Karras and Sören Auer)</td></tr>       	
+								<tr><td>Comparative Analysis of iPusnas User Experience Among Students, Workers, and Housewives	(Aditia Aditia, Rahmi Rahmi and Harry Susianto)</td></tr>								
+								<tr><td>Quantitative Analysis of Scholarly References on YouTube: Focusing on their Research Fields and Contributors	(Jiro Kikkawa, Masao Takaku and Fuyuki Yoshikane)</td></tr>       	
+								<tr><td>The Pivotal Role of Preprint Platforms in Disseminating COVID-19 Research: A Global Investigation of Country-Level Activities	(Hiroyuki Tsunoda, Yuan Sun, Masaki Nishizawa, Xiaomin Liu, Kou Amano and Rie Kominami)</td></tr>
+								<tr><td>The semantic mapping of RiC-CM to CIDOC-CRM	(Lina Bountouri, Matthew Damigos, Markella Drakiou, Manolis Gergatsoulis and Eleftherios Kalogeros)</td></tr>       	
+								<tr><td>An End-to-End Table Structure Analysis Method Using Graph Attention Networks	(Manabu Ohta, Hiroyuki Aoyagi, Fumito Uwano, Teruhito Kanazawa and Atsuhiro Takasu)</td></tr>								
+								<tr><td>Co-attention-based Pairwise Learning for Author Name Disambiguation	(Shenghui Wang, Qiuke Li and Rob Koopman)</td></tr>       	
+								<tr><td>A privacy-preserving technique to identify the useful content of documents owned by multiple institutes	(Rina Kagawa, Akira Imakura and Masaki Matsubara)</td></tr>
+								<tr><td>Identifying Influential References in Scholarly Papers Using Citation Contexts	(Tomoki Ikoma and Shigeki Matsubara)</td></tr>       									
+								<tr><td>Advantages of Data Reuse Based on Disciplinary Diversity and Citation Count	(Emi Ishita, Yosuke Miyata and Keiko Kurata)</td></tr>       									
+								<tr><td>Scholarly Knowledge Graph Construction from Published Software Packages	(Muhammad Haris, Sören Auer and Markus Stocker)</td></tr>       									
+								<tr><td>Health Information Encountering: Topic Modelling and Sentiment Analysis of Pre- and Current-Covid-19 Tweets	(Hamzah Osop, Wong Jie Yang, Shwe Waddy Lwin and Lee Chei Sian)</td></tr>       									
+						</table>
+						<p/>
+						<h4>Practice papers</h4>
+						<table>
+								<tr><td>Toward Semantic Publishing in Non-Invasive Brain Stimulation: A Comprehensive Analysis of rTMS Studies	(Swathi Anil and Jennifer D'Souza)</td></tr>       	
+								<tr><td>Development of the Polyglot Asian Medicine Knowledge Graph System	(Christopher S.G. Khoo, Michael Stanley-Baker, Faizah Binte Zakaria, Jinju Chen, Shaun Q.R. Ang and Bo Huang)</td></tr>
+						</table>	
+						<p/>
+						<h4>Poster papers</h4>
+						<table>
+								<tr><td>Appraisal of Paradise: A Sentiment Analysis Dataset of French Tourists’ Experiences in French Polynesia	(Bryan Dallest, Sébastien Chabrier, Alban Gabillon and Pierre Ghewy)</td></tr>       	
+								<tr><td>Analyzing Web search queries of before and after purchase on e-commerce site	(Yuka Kawada, Takehiro Yamamoto, Hiroaki Ohshima, Yuki Yanagida, Makoto P. Kato and Sumio Fujita)</td></tr>
+								<tr><td>HistoChatbot: Educating History by Generating Quizzes in Social Network Services	(Yasunobu Sumikawa and Adam Jatowt)</td></tr>       	
+								<tr><td>Examining Digital Humanities Tools Used by Taiwanese Historians with the Digital Visitors and Residents Framework	(Tien-I Tsai)</td></tr>
+								<tr><td>Applying a Vector Search Method in Reference Service Question-Answer Retrieval Systems	(Te-Lun Yang and Guan-Lun Huang)</td></tr>       	
+								<tr><td>Navigating the Political Economy Landscape: Transforming Higher Education Digital Libraries in Indonesia	(Luki Wijayanti, Nina Mayesti, Indira Irawati and Anson Huang)</td></tr>
+								<tr><td>Automatically Detecting References from the Scholarly Literature to Records in Archives	(Tokinori Suzuki, Douglas Oard, Emi Ishita and Yoichi Tomiura)</td></tr>       	
+								<tr><td>QRDP: A System that Facilitates the Selection of English Materials for Translator Education	(Takeshi Abekawa, Rei Miyata and Kyo Kageura)</td></tr>
+								<tr><td>Investigation of ChatGPT Use in Research Data Retrieval	(Motokazu Yamasaki, Yoichi Tomiura and Toshiyuki Shimizu)</td></tr>       	
+								<tr><td>Gen Z Transitions to University: A Preliminary Study on Everyday Information-Seeking Practices	(Chei Sian Lee, Rachel Qing Yu Yeo, Shutian Zhang, Dion Goh, Pei-Hui Rebecca Ang and Betsy Ling Ling Ng)</td></tr>
+								<tr><td>TweetVi: a Tweet Visualisation Dashboard for Automatic Topic Classification and Sentiment Analysis	(Matthew Graham, Huilan Zhu, Hamzah Osop, Basem Suleiman, Yixuan Zhang, Ruoxia Wang and Xiaoyu Xu)</td></tr>       	
+								<tr><td>Review of In-App Nudges Towards User Decision Behavior: A Topic Modeling Approach	(Kok Khiang Lim and Chei Sian Lee)</td></tr>
+								<tr><td>Using Information System Success Model to Explore Graduate Students’ Satisfaction and Individual Impact toward the use of National Digital Library of Theses and Dissertations in Taiwan	(Wei-Hsiang Hung, Yi-Shan Hsieh, Chin-Cheng Lin, Bing-Yi Chen and Hao-Ren Ke)</td></tr>       	
+						</table>											
+        </section>        
+        <!-- section: proceedings -->
+          <section class="dates" id="proceedings">
+          	 <div class="section-header" style="border-top-width:20px;padding-top:50px">
+            	<div class="section-header">
+              	<h2>Proceedings</h2>
+            	</div>           	 			
+							
+								The conference proceedings will be available for downloading after the conference starts from this link: <a href="https://link.springer.com/book/10.1007/978-981-99-8085-7" rel="nofollow">https://link.springer.com/book/10.1007/978-981-99-8085-7 (Part I)</a> &amp; 
+								<a href="https://link.springer.com/book/10.1007/978-981-99-8088-8" rel="nofollow">https://link.springer.com/book/10.1007/978-981-99-8088-8 (Part II)</a> 								
+							
+						</div>
+
+          </section>	      
+        <!-- Hotels -->
+          <section class="host" id="hotels">
+            <div class="section-header" style="border-top-width:20px;padding-top:50px">
+	              <h2>Accommodation &amp; Conference Venues</h2>
+  	        </div>
+              <h4>Accommodation by National Taiwan Normal University</h4>              
+	          		<table>
+	            		<tr>
+			              <td>&nbsp;</td>
+			              <td width="400"><strong>How to get to National Central Library </strong></td>
+                	</tr>
+	            		<tr>
+	              		<td>
+		                 <ul>
+			              	<li>NTNU CAMPUS HOSTEL: <a href="https://www.sce.ntnu.edu.tw/home/en/accommodation/">https://www.sce.ntnu.edu.tw/home/en/accommodation/</a></li>
+			              	<li>Daily Rental Fee for visitors / guests (breakfast not included): $2299 ~ 2199 NT/day</li>
+	              		 </ul>	
+	              		</td>
+	              		<td>By bus: no.18, Heping line to MRT Chiang Kai-shek Memorial Hall Station (about 7 stops)<br>
+				                By MRT - MRT Chiang Kai-shek Memorial Hall Station(<font color="green">G10</font>, <font color="red">R08</font>), Exist 6.  <a href="https://english.metro.taipei/cp.aspx?n=1BE0AF76C79F9A38" target="_blank">Maps</a><br/>
+				                By walk: about 20 min.<br>
+	              		</td>
+                	</tr>
+	            	</table>
+	            	<br/>
+								<h4>Map of accommodation nearby</h4>
+									<ul>								
+										<li>Goodmore Hotel: <a href="https://www.goodmorehotel.com/">https://www.goodmorehotel.com/</a></li>
+										<li>Midtown-Ximen: <a href="https://www.midtownrichardson.com/en/Midtown+Richardson">https://www.midtownrichardson.com/en/Midtown+Richardson</a></li>
+										<li>Brother Hotel: <a href="https://www.brotherhotel.com.tw/">https://www.brotherhotel.com.tw/</a></li>
+										<li>HUB HOTEL XIMEN INN: <a href="https://ximen-inn.hubhotel.com.tw/">https://ximen-inn.hubhotel.com.tw/</a></li>
+									</ul>
+								<br/>
+								<h4>Conference Venues</h4>	
+								<ol><li>December 4th: National Taiwan Normal University (No. 106, Sec. 1, He-Ping E. Rd., Taipei City, Taiwan, R.O.C)<br>　<br><iframe style="border: 0;" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14462.020237660608!2d121.52203621939528!3d25.016928595237022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9854425be61%3A0xc79998efecaf0634!2z5ZyL56uL6Ie654Gj5bir56-E5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1698033285332!5m2!1sen-US!2stw" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>&nbsp;</li><li>December 5th-7th: National Central Library (No. 20, Zhongshan S. Rd., Taipei City, Taiwan, R.O.C.)<br>　<br><iframe style="border: 0;" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28923.43256299216!2d121.49412039271498!3d25.01950893082771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a99e1c9b0373%3A0x4936e22ba2a75b4!2z5ZyL5a625ZyW5pu46aSo!5e0!3m2!1szh-TW!2stw!4v1698033393856!5m2!1sen-US!2stw" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li></ol>     	
+
+          </section>
+          <section class="host" id="cars">
+            <div class="section-header"style="border-top-width:20px;padding-top:50px">
+            	<div class="section-header">
+              	<h2>Transportation options</h2>
+            	</div>              
+              How to travel from Taoyuan airport to Taipei.
+							<ul>
+								<li>By Bus:NT$145~200 (Taipei Main station or Taipei City hall bus station)</li>
+								<li>By Taoyuan Airport MRT: NT$175 </li>
+								<li>By Taxi: about NT$1000<sup>+</sup> depend on drop down location.</li>
+							</ul>
+							*Supplementary information on <a href="https://www.taoyuan-airport.com/transportation?lang=en" target="_blank">https://www.taoyuan-airport.com/transportation?lang=en</a>
+            </div>	          	
+
+          </section>   
+                  
+        <!-- Registration -->
+          <section class="host" id="Registration">
+            <div class="section-header"style="border-top-width:20px;padding-top:50px">
+              <h2>Registration</h2>
+            </div>	          	
+						The registration fee of the umbrella <a href="https://ifdik2023.conf.tw/site/page.aspx?pid=901&sid=1521&lang=en">IFDIK 2023</a> (2023 International Forum on Data, Information, and Knowledge for Resilient and Trustworthy Digital Societies) includes entry to ICADL 2023, A-LIEP 2023, AP-iConference, and workshops sessions. Please link to the <a href="https://ifdik2023.conf.tw/site/page.aspx?pid=901&sid=1521&lang=en">IFDIK 2023</a> Website for <a href="https://ifdik2023.conf.tw/site/page.aspx?pid=232&sid=1521&lang=en">Registration</a>.<br/>
+						Please fill out the form (<a href="https://ifdik2023.conf.tw/site/page.aspx?pid=232&sid=1521&lang=en">https://ifdik2023.conf.tw/site/page.aspx?pid=232&sid=1521&lang=en</a>) by Oct. 31, 2023.
+          </section>            
+                                             
+        <footer class="footer">
+          
+        </footer>
+      </div>
+    </div>
+    <a href="#welcome" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+        
+        <!-- JavaScript Libraries -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+ </body>
+</html>

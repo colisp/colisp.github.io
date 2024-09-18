@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ICADL 2021 - The 23rd International Conference on Asia-Pacific Digital Libraries</title>
+  			<meta charset="utf-8">
+  			<meta name="description" content="The 23rd International Conference on Asia-Pacific Digital Libraries (ICADL 2021)"/>
+  			<meta name="keywords" content="Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries, ICADL"/>
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- toast notify -->
+				<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+				<script language="javascript" type="text/javascript">
+					function getState(){
+			          //do getdata 
+			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+			          console.log(news_list);
+			          for (var i = 0; i < news_list.length; i++) {
+                	notify(news_list[i].innerHTML,"Info");
+            		}
+								
+			         // setTimeout('getState();',1000); //100ms
+					}	
+				  function notify(name,sdate) {
+				    	toastr.success(name,sdate,{positionClass: "toast-top-right"});
+				    	toastr.options.closeButton = false;
+				    	//toastr.options.closeMethod = 'fadeOut';
+				    	//toastr.options.closeDuration = 300;
+				    	//toastr.options.closeEasing = 'swing';
+				    	toastr.options.debug=false;
+				//    	toastr.options.newestOnTop=true;
+				    	toastr.options.progressBar=true;
+				    	//toastr.options.positionClass="toast-top-full-width";
+				    	//toastr.options.preventDuplicates=false;
+				    	toastr.options.onclick=null;
+				    	toastr.options.showDuration=500;
+				    	toastr.options.hideDuration=300;
+				    	toastr.options.timeOut=10000;
+				    	toastr.options.extendedTimeOut=1000;
+				    	toastr.options.showEasing="swing";
+				    	toastr.options.hideEasing="linear";
+				    	toastr.options.showMethod="fadeIn";
+				    	toastr.options.hideMethod="fadeOut";
+				    	toastr.options.closeMethod = "slideUp";
+				  }
+				</script>        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <h1>ICADL 2021</h1>
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Registration</h3>
+                                            <p>Nov. 25, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>OnLine meeting</h3>
+                                            <p>Dec. 1-3, 2021</p>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email Us</h3>
+                                            <p>icadl2021@easychair.org</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="index.html#welcome" title="Welcome" class="nav-link">Welcome</a>
+                                <a href="index.html#news" title="News" class="nav-link">News</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Submission</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#cfp" class="dropdown-item">Call for Papers</a>                                    	
+                                        <a href="index.html#submission" class="dropdown-item">Submission</a>
+                                    </div>
+                                </div>									        			
+									        			<a href="index.html#dates" title="Important Dates" class="nav-link">Important Dates</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Program</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#Program" class="dropdown-item">Program</a>
+                                        <a href="keynotes.html" class="dropdown-item">Keynotes</a>
+                                        <a href="panel.html" class="dropdown-item">Panel</a>
+                                        <a href="#" class="dropdown-item">Social event</a>
+                                        <a href="index.html#zoom" class="dropdown-item">ZOOM Instructions</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Accepted papers</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#accepted" class="dropdown-item">Accepted papers</a>
+                                        <a href="index.html#proceedings" class="dropdown-item">Proceedings</a>
+                                        <a href="index.html#awards" class="dropdown-item">Awards</a>
+                                    </div>
+                                </div> 
+																<div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Organizers</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#organizers" class="dropdown-item">Organizers</a>
+                                        <a href="index.html#host" class="dropdown-item">Host</a>
+                                    </div>
+                                </div>										        		                                        
+																<a href="APiConf.html" class="nav-link">AP-iConference</a>
+                            </div>
+                            <div class="ml-auto">
+                                <a class="btn" href="#Registration">Registration</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->            
+            <!-- Team Start -->
+            <div class="team">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Social Event (community meeting)</p>
+                        <h2>What's Next?</h2><br/>
+                        <b>Backgrounds and Aims</b><br/>
+													 The COVID-19 pandemic has brought many changes to our community. The most significant change would be that we have experienced many online conferences and learned a lot about online collaboration and meetings. We are willing to organize the future ICADLs as face-to-face conferences as soon as possible when the pandemic has ceased because face-to-face meetings will provide the participants with many opportunities to directly exchange their ideas and build networks. However, on the other hand, the online conferences have lowered barriers for young researchers and students to participate in international conferences because the costs to participate in offline events are not negligible. Thus, we have learned benefits and limitations of online and offline conferences during the pandemic. This session is planned as a forum for all participants of ICADL 2021 to discuss the organization of the future ICADLs. Past ICADLs were hosted at many locations in Asia-Pacific, and it is supposed to continue its travel when the COVID-19 pandemic is over. However, it would not be appropriate to simply use the traditional face-to-face conference model after the pandemic. This session invites three discussants who have been involved in the ICADL and have different views based on their working/learning experiences in the different parts of the world. This session is planned as a forum for all participants of ICADL 2021 to discuss our next steps.<br/><br/><br/>
+												<b>Discussants</b><br/>
+												 	 Adam Jatowt (Austria), Sueyeon Syn (USA), Hao-Ren Ke (Taiwan)<br/><br/>
+			                    <div class="row">
+			                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+			                            <div class="team-item">
+			                                <div class="team-img">
+			                                    <img src="img/mee.png" alt="Adam Jatowt" height="350px">
+			                                </div>
+			                                <div class="team-text">
+			                                    <h2>Adam Jatowt (Austria)</h2>
+			                                    <p></p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+			                            <div class="team-item">
+			                                <div class="team-img">
+			                                    <img src="img/syn.jpg" alt="Sueyeon Syn" height="350px">
+			                                </div>
+			                                <div class="team-text">
+			                                    <h2>Sueyeon Syn</h2>
+			                                    <p></p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+			                            <div class="team-item">
+			                                <div class="team-img">
+			                                    <img src="img/haoren.jpg" alt="Hao-Ren Ke" height="350px">
+			                                </div>
+			                                <div class="team-text">
+			                                    <h2>Hao-Ren Ke</h2>
+			                                    <p></p>
+			                                </div>
+			                            </div>
+			                        </div>   
+			                                             
+			                    </div>												 	 
+												 	 
+												<b>Moderator</b><br/>
+													Shigeo Sugimoto / Atsuyuki Morishima (Japan)<br/><br/>
+                    
+		                    <div class="row">
+		                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+		                            <div class="team-item">
+		                                <div class="team-img">
+		                                    <img src="img/0000501695508698-web.jpg" alt="Shigeo Sugimoto">
+		                                </div>
+		                                <div class="team-text">
+		                                    <h2>Shigeo Sugimoto</h2>
+		                                    <p></p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+		                            <div class="team-item">
+		                                <div class="team-img">
+		                                    <img src="img/people_morishima.png" alt="Atsuyuki Morishima">
+		                                </div>
+		                                <div class="team-text">
+		                                    <h2>Atsuyuki Morishima</h2>
+		                                    <p></p>
+		                                </div>
+		                            </div>
+		                        </div>                                                
+		                    </div>
+		                </div>    
+                </div>
+            </div>
+                                             
+        <footer class="footer">
+          
+        </footer>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+        
+        <!-- JavaScript Libraries -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+ </body>
+</html>

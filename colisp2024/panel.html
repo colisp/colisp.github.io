@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ICADL 2021 - The 23rd International Conference on Asia-Pacific Digital Libraries</title>
+  			<meta charset="utf-8">
+  			<meta name="description" content="The 23rd International Conference on Asia-Pacific Digital Libraries (ICADL 2021)"/>
+  			<meta name="keywords" content="Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries, ICADL"/>
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- toast notify -->
+				<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+				<script language="javascript" type="text/javascript">
+					function getState(){
+			          //do getdata 
+			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+			          console.log(news_list);
+			          for (var i = 0; i < news_list.length; i++) {
+                	notify(news_list[i].innerHTML,"Info");
+            		}
+								
+			         // setTimeout('getState();',1000); //100ms
+					}	
+				  function notify(name,sdate) {
+				    	toastr.success(name,sdate,{positionClass: "toast-top-right"});
+				    	toastr.options.closeButton = false;
+				    	//toastr.options.closeMethod = 'fadeOut';
+				    	//toastr.options.closeDuration = 300;
+				    	//toastr.options.closeEasing = 'swing';
+				    	toastr.options.debug=false;
+				//    	toastr.options.newestOnTop=true;
+				    	toastr.options.progressBar=true;
+				    	//toastr.options.positionClass="toast-top-full-width";
+				    	//toastr.options.preventDuplicates=false;
+				    	toastr.options.onclick=null;
+				    	toastr.options.showDuration=500;
+				    	toastr.options.hideDuration=300;
+				    	toastr.options.timeOut=10000;
+				    	toastr.options.extendedTimeOut=1000;
+				    	toastr.options.showEasing="swing";
+				    	toastr.options.hideEasing="linear";
+				    	toastr.options.showMethod="fadeIn";
+				    	toastr.options.hideMethod="fadeOut";
+				    	toastr.options.closeMethod = "slideUp";
+				  }
+				</script>        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <h1>ICADL 2021</h1>
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Registration</h3>
+                                            <p>Nov. 25, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>OnLine meeting</h3>
+                                            <p>Dec. 1-3, 2021</p>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email Us</h3>
+                                            <p>icadl2021@easychair.org</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="index.html#welcome" title="Welcome" class="nav-link">Welcome</a>
+                                <a href="index.html#news" title="News" class="nav-link">News</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Submission</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#cfp" class="dropdown-item">Call for Papers</a>                                    	
+                                        <a href="index.html#submission" class="dropdown-item">Submission</a>
+                                    </div>
+                                </div>									        			
+									        			<a href="index.html#dates" title="Important Dates" class="nav-link">Important Dates</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Program</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#Program" class="dropdown-item">Program</a>
+                                        <a href="keynotes.html" class="dropdown-item">Keynotes</a>
+                                        <a href="#" class="dropdown-item">Panel</a>
+                                        <a href="socialevent.html" class="dropdown-item">Social event</a>
+                                        <a href="index.html#zoom" class="dropdown-item">ZOOM Instructions</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Accepted papers</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#accepted" class="dropdown-item">Accepted papers</a>
+                                        <a href="index.html#proceedings" class="dropdown-item">Proceedings</a>
+                                        <a href="index.html#awards" class="dropdown-item">Awards</a>
+                                    </div>
+                                </div> 
+																<div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Organizers</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#organizers" class="dropdown-item">Organizers</a>
+                                        <a href="index.html#host" class="dropdown-item">Host</a>
+                                    </div>
+                                </div>										        		                                        
+																<a href="APiConf.html" class="nav-link">AP-iConference</a>
+                            </div>
+                            <div class="ml-auto">
+                                <a class="btn" href="#Registration">Registration</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->            
+            <!-- Team Start -->
+            <div class="team">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Panel</p>
+                        <h3>Cooperation & Collaboration: How Can Young Researchers Start an International Research Project?</h3><br/>
+                        <b>Panelists</b><br/>
+													 Shigeo Sugimoto (University of Tsukuba, Japan)
+													 Gillian Oliver (Monash University, Australia)
+													 Sue Yeon Syn (The Catholic University of America, USA)
+													 Rahmi (Universitas Indonesia, Indonesia)
+												<br/><br/><br/>
+												<b>Moderator</b><br/>
+												 	 Di Wang (Wuhan University)<br/><br/>
+												<b>Introduction</b><br/>
+													Atsuyuki Morishima (University of Tsukuba)<br/><br/>
+												<b>Abstract</b><br/>
+													Academic research has become more international nowadays.
+														Whether it is to develop new ideas, tap into new sources of funding,
+														or to gain access to specialized technology and equipment, scholars
+														are more positive to carry out research together with colleagues
+														around the world. These international research projects can benefit
+														researchers for greater academic influence and a broader community.
+														However, many young researchers meet great difficulties in starting
+														international research projects.<br/><br/>
+														 This panel aims to share the “tricks” about how to start
+														international research projects. Panelists of different research
+														background are invited to share their own experiences, including
+														scholars who took PhD Degree overseas and come back to his/her own
+														country, who took PhD Degree overseas and is working in that country,
+														and who have rich experiences and are actively conducting
+														international collaboration for a long period of time. Attendees will
+														get an overview of different kinds of international research projects
+														and methods about how to start their own ones
+												
+                    </div>                    
+                </div>
+            </div>
+                                             
+        <footer class="footer">
+          
+        </footer>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+        
+        <!-- JavaScript Libraries -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+ </body>
+</html>
