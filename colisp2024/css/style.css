@@ -85,9 +85,9 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 180px; /* 原本90 */
+    height: 90px; /* 原本180 */
     background: #fdbe33;
-    padding: 40px 0; /* 原本沒有 */
+    padding: 20px 0; /* 原本40 */
 }
 
 .top-bar .logo {
