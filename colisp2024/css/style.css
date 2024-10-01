@@ -246,7 +246,7 @@ a:focus {
     
     .nav-bar a.nav-link {
         padding: 8px 15px;
-        font-size: 15px;//change size to fit
+        font-size: 17px;//change size to fit
         text-transform: uppercase;
     }
 }
