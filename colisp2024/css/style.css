@@ -112,6 +112,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-left: 20px;
 }
 
 .top-bar .top-bar-item a:hover,
@@ -137,7 +138,7 @@ a:focus {
 }
 
 .top-bar .top-bar-text {
-    padding-left: 35px;
+    padding-left: 10px;
 }
 
 .top-bar .top-bar-text h3 {
