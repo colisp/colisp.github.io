@@ -435,11 +435,12 @@ table {
 	border-collapse: separate;
 	border-spacing: 1px;
 	margin-top: 10px;
-	width:100%;  
+	width: 600px;  
 }
 table th {
 	background: #E3ECC0;
 	text-align: center;
+	font-size: 16px;
 }
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #FFF}
@@ -448,6 +449,7 @@ td {
   height:30px;
   padding: 3px;
   line-height:150%
+  font-size: 16px;
 }
 /*******************************/
 /********* Feature CSS *********/
