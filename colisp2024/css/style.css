@@ -174,6 +174,7 @@ a:focus {
     position: relative;
     background: #fdbe33;
     transition: .3s;
+    margin-top: 20px; /* 調整移動 */
 }
 
 .nav-bar .container-fluid {
