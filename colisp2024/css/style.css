@@ -87,13 +87,14 @@ a:focus {
     position: relative;
     height: 90px;
     background: #fdbe33;
-    padding: 0 60px;
+    padding: 0 100px;
 }
 
 .top-bar .logo {
     padding: 15px 0;
     text-align: left;
     overflow: hidden;
+    margin-right: 40px;
 }
 
 .top-bar .logo h1 {
@@ -141,7 +142,7 @@ a:focus {
 }
 
 .top-bar .top-bar-text {
-    padding-left: 35px;
+    padding-left: 10px;
 }
 
 .top-bar .top-bar-text h3 {
