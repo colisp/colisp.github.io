@@ -85,7 +85,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 120px;
+    height: 90px;
     background: #fdbe33;
 }
 
@@ -141,16 +141,16 @@ a:focus {
 }
 
 .top-bar .top-bar-text h3 {
-    margin: 0 0 5px 0;
+    margin: 0 0 2px 0;
     color: #030f27;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
 }
 
 .top-bar .top-bar-text p {
     margin: 0;
     color: #030f27;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
 }
 
