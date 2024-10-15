@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024</title>
+  			<meta charset="utf-8">
+  			<meta name="description" content="COLISP2024: 4th Conference of LIS and Practices"/>
+  			<meta name="keywords" content="第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024, COLISP2024: 4th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries"/>
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- toast notify -->
+				<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+				<script language="javascript" type="text/javascript">
+					/*
+					function getState(){
+			          //do getdata 
+			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+			          console.log(news_list);
+			          for (var i = news_list.length-1; i >=0; i--) {
+			          	if (news_list[i].id=="stop"){
+			          		continue;
+			          	}
+                	notify(news_list[i].innerHTML,"Info");
+            		}
+								
+			         // setTimeout('getState();',1000); //100ms
+					}	
+				  function notify(name,sdate) {
+				    	toastr.success(name,sdate,{positionClass: "toast-top-right"});
+				    	toastr.options.closeButton = false;
+				    	//toastr.options.closeMethod = 'fadeOut';
+				    	//toastr.options.closeDuration = 300;
+				    	//toastr.options.closeEasing = 'swing';
+				    	toastr.options.debug=false;
+				//    	toastr.options.newestOnTop=true;
+				    	toastr.options.progressBar=true;
+				    	//toastr.options.positionClass="toast-top-full-width";
+				    	//toastr.options.preventDuplicates=false;
+				    	toastr.options.onclick=null;
+				    	toastr.options.showDuration=500;
+				    	toastr.options.hideDuration=300;
+				    	toastr.options.timeOut=10000;
+				    	toastr.options.extendedTimeOut=1000;
+				    	toastr.options.showEasing="swing";
+				    	toastr.options.hideEasing="linear";
+				    	toastr.options.showMethod="fadeIn";
+				    	toastr.options.hideMethod="fadeOut";
+				    	toastr.options.closeMethod = "slideUp";
+				  }*/
+				</script>   
+
+ 	<style>
+ 	   html {
+   	   scroll-behavior: smooth;
+  	   }
+ 	</style>
+    </head>
+
+    <body>
+    <div class="wrapper">
+        <!-- Top Bar Start -->
+        <div class="top-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="/colisp2024/img/CoLISP_LOGO.png" alt="CoLISP 2024 Logo" style="width: 70px; height: auto; margin-right: 10px;">
+                            </a>
+                        </div>
+                        <h1 style="display: inline; margin: 0;">CoLISP 2024</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                        <div class="row" style="margin-left: 60px;">
+                            <div class="col-4" style="margin-right: 90px;">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="flaticon-calendar"></i>
+                                    </div>
+                                    <div class="top-bar-text">
+                                        <h3>Registration</h3>
+                                        <p>Sep. 1, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="flaticon-send-mail"></i>
+                                    </div>
+                                    <div class="top-bar-text">
+                                        <h3>Email Us</h3>
+                                        <p>clavenke@ntnu.edu.tw</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+			        <div class="nav-item dropdown">
+                                   <a href="index.html#welcome" class="nav-link">首頁</a>
+			        </div>    
+                                <div class="nav-item dropdown">
+                                    <a href="index.html#accepted" class="nav-link">會議組織</a>
+                                </div>	
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議徵稿資訊</a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.html#cfp" class="dropdown-item">會議徵稿主題</a>
+					<a href="index.html#type" class="dropdown-item">會議徵稿種類</a>	
+					<a href="index.html#submission" class="dropdown-item">稿件格式與提交</a>	
+                                    </div>
+                                </div> 
+				<div class="nav-item dropdown">
+			            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議資訊</a>
+				    <div class="dropdown-menu">
+                                        <a href="index.html#accepted" class="dropdown-item">會議議程</a>
+					<a href="index.html#accepted" class="dropdown-item">特邀演講</a>	
+					<a href="index.html#accepted" class="dropdown-item">實務論壇</a>		
+					<a href="index.html#accepted" class="dropdown-item">國科會成果海報展</a>
+					<a href="index.html#accepted" class="dropdown-item">學術海報展</a>
+				    </div>
+				</div> 
+				<div class="nav-item dropdown">
+                                    <a href="https://easychair.org/account2/signin?l=6679768745752296730" class="nav-link" target="_blank">論文投稿</a>
+                                </div>
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">會議報名</a>
+                                </div>	
+ 				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">交通資訊</a>
+                                </div>
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">參展廠商</a>
+                                </div>
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">聯絡資訊</a>
+                                </div>
+                            </div>
+                            <div class="ml-auto">                            		
+                                <a class="btn" href="https://easychair.org/account2/signin?l=3195926240978875542">Registration</a>
+                            </div>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->	                                                         
+    <div class="content" id="content">   	
+      <div class="wrapper">
+		   	<div class="header">		
+				    <h1 class="logo-name">
+				      <a class="logo-link" href="#welcome" title="" itemprop="name"></a><!-- don't show banner word-->
+				    </h1>					
+				</div>      									
+        <!-- section: welcome -->
+          <section class="welcome" id="welcome"><!--
+            <h2 class="section-title">Welcome</h2> -->
+							<p itemprop="description" style="border-top-width:0px; padding-top:0px;">
+								<center>
+									<h2>COLISP 2024: 4th Conference of LIS and Practices</h2><br/>
+									<h2>第四屆「圖書資訊學術與實務研討會」</h2><br/>
+									<h3>Taipei City, Taiwan, December 13-14, 2024</h3></center></p>
+							<p>第四屆圖書資訊學術與實務研討會(4th Conference of LIS and Practices, CoLISP 2024)將邀集國內外圖書館學與資訊科學、資訊科技之專家學者共襄盛舉，旨在搭建圖書資訊學者與專業者交流之平台，鼓勵與會者相互交流圖書資訊學研究與實務議題，提昇我國圖書資訊學相關領域學術研究與圖書館事業實務之發展。</p>
+							<p>後疫情時代，數位成為人際交流的日常，圖書資訊領域面對數位技術快速變遷的時代，無論是專業教育或是實務工作都面臨變革的挑戰，圖書資訊專業為了能與國際接軌、掌握時代脈動，必須不斷積極創新，追求卓越。時值全球為落實永續發展目標(Sustainable Development Goals)共同努力之際，圖書館需要從知識服務出發，啟發社會大眾適應環境動態、促進文化包容與相互理解。因此，CoLISP 2024將以「xxxxxx」為會議主題，彰顯圖書館面對數位轉型以及永續發展的潮流，所展現的學術與實務成果。</p>
+							<p>CoLISP 2024敬邀圖書資訊學界與圖書館實務界的前輩、同儕、學者、專家踴躍參與，共襄盛舉。</p>
+          </section>         
+        <!-- section cfp -->
+          <section class="faqs" id="cfp">
+            <div class="section-header" style="border-top-width:20px;padding-top:30px">
+              <h2>會議徵稿主題</h2>
+            </div>
+                        <p>CoLISP 2024之會議主題為「人工智慧浪潮下的圖書資訊學研究與實務」，敬邀徵集下列（但不限）圖書資訊學領域研究與實務成果：</p>
+					<p style="margin-left: 40px;">1.人工智慧</p>
+					<p style="margin-left: 40px;">2.媒體與資訊素養</p>
+					<p style="margin-left: 40px;">3.圖書館永續發展</p>
+					<p style="margin-left: 40px;">4.開放科學</p>
+					<p style="margin-left: 40px;">5.數位典藏與數位人文</p>
+					<p style="margin-left: 40px;">6.資訊行為</p>
+					<p style="margin-left: 40px;">7.人資互動</p>
+					<p style="margin-left: 40px;">8.資訊組織</p>
+					<p style="margin-left: 40px;">9.資訊檢索</p>
+					<p style="margin-left: 40px;">10.資訊計量學</p>
+					<p style="margin-left: 40px;">11.&nbsp圖書資訊學教育</p>
+					<p style="margin-left: 40px;">12.圖書館與資訊科技</p>
+					<p style="margin-left: 40px;">13.閱讀研究與推廣</p>
+					<p style="margin-left: 40px;">14.數位學習</p>
+					<p style="margin-left: 40px;">15.知識管理</p>
+					<p style="margin-left: 40px;">16.檔案管理</p>							
+                   <div class="section-header">
+          </section>	
+        <!-- section: type -->
+          <section class="type" id="type">
+            <div class="section-header" style="border-top-width:20px; padding-top:30px">
+              <h2>會議徵稿種類</h2>
+            </div>
+            <table border="1" style="margin-top: 20px; width: 800px; font-size: 24px;">
+              <tr>
+                <th>類型</th>
+                <th>稿件規定</th>
+              </tr>
+              <tr>
+                <td>學術論文</td>
+                <td>8-10頁</td>
+              </tr>
+              <tr>
+                <td>博士生論壇論文</td>
+                <td>8-10頁</td>
+              </tr>
+              <tr>
+                <td>實務論文</td>
+                <td>8-10頁</td>
+              </tr>
+            </table>
+          </section>	   
+        <!-- section: submission -->
+          <section class="submission" id="submission">
+            <div class="section-header"style="border-top-width:20px;padding-top:30px">
+              <h2>稿件格式與提交</h2>
+            </div>						
+						<p>稿件投稿一律以PDF檔上傳至<a href="https://easychair.org/conferences/?conf=colisp2024" target="_blank">投稿系統</a>。</p>
+							<ol>
+   								<li>不接受已發表的著作，或已投稿其他會議、期刊的稿件。</li>
+   								<li>稿件全文（包含圖表、致謝、參考文獻）以A4格式撰寫，稿件中英文撰寫均可，請使用標楷體中文字型及Times New Roman 英文字型，並依循<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fcolisp2022.conf.tw%2Fsite%2Fuserdata%2F1442%2Ffile%2FCoLISP2022_template_1.docx&wdOrigin=BROWSELINK" target="_blank">論文樣版</a></li>
+   								<li>所有提交的論文都將進行單盲審查。</li>
+   								<li>稿件檔案命名：
+   								        <ul>
+   								            <li>學術或實務論文: Article_通訊作者姓名_論文主題</li>
+   								            <li>博士生論壇論文: Forum_通訊作者姓名_論文主題</li>
+   								        </ul>
+   								</li>
+   								<li>格式不符者將予以退件。</li>
+   								<li>本研討會需繳註冊費，稿件一經接受，至少需有一位作者註冊並出席發表論文。</li>
+   								<li>本會議設有最佳論文獎。</li>
+							</ol>			
+          </section>
+        <!-- section: dates  -->
+          <section class="dates" id="dates">
+          	<div class="section-header"style="border-top-width:20px;padding-top:30px">
+              <h2>重要時程</h2>
+            </div>
+            <table border="1" style="margin-top: 20px; width: 800px; font-size: 24px;">
+              <tr>
+                <td>投稿截止</td>
+                <td>2024年<span style="text-decoration:line-through">9月1日(星期日)</span> <font color='red'>9月30日(星期一)</font></td>
+              </tr>
+              <tr>
+                <td>審查結果通知</td>
+                <td>2024年<span style="text-decoration:line-through">9月30日(星期一)</span> <font color='red'>10月15日(星期二)</font></td>
+              </tr>
+              <tr>
+                <td>論文全文繳交截止</td>
+                <td>2024年11月10日(星期日)</td>
+              </tr>
+              <tr>
+                <td>報名日期</td>
+                <td>2024年10月15日&nbsp至&nbsp11月30日</td>
+              </tr>
+              <tr>
+                <td>會議日期</td>
+                <td>2024年12月13-14日</td>
+              </tr>	    
+            </table>
+          </section>         
+             
+        <!-- Hotels -->
+          <section class="host" id="hotels">
+            <div class="section-header" style="border-top-width:20px;padding-top:50px">
+	              <h2>Conference Venues</h2>
+  	    </div>
+			<h4>Conference Venues</h4>	
+			<ol><li>December 4th: National Taiwan Normal University (No. 106, Sec. 1, He-Ping E. Rd., Taipei City, Taiwan, R.O.C)<br>　<br><iframe style="border: 0;" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14462.020237660608!2d121.52203621939528!3d25.016928595237022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9854425be61%3A0xc79998efecaf0634!2z5ZyL56uL6Ie654Gj5bir56-E5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1698033285332!5m2!1sen-US!2stw" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>&nbsp;</li><li>December 5th-7th: National Central Library (No. 20, Zhongshan S. Rd., Taipei City, Taiwan, R.O.C.)<br>　<br><iframe style="border: 0;" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28923.43256299216!2d121.49412039271498!3d25.01950893082771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a99e1c9b0373%3A0x4936e22ba2a75b4!2z5ZyL5a625ZyW5pu46aSo!5e0!3m2!1szh-TW!2stw!4v1698033393856!5m2!1sen-US!2stw" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li></ol>     	
+
+          </section>
+                  
+        <!-- Registration -->
+          <section class="host" id="Registration">
+            <div class="section-header"style="border-top-width:20px;padding-top:50px">
+              <h2>Registration</h2>
+            </div>	          	
+          </section>  
+	      
+	  <hr style="border: 1px solid #030f27; margin: 20px 0;"/>
+
+	<!-- Hosted -->
+          <section class="Hosted" id="Hosted">
+            <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+              <h2>主辦單位</h2>	    
+            </div>
+	    <div class="image-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;">
+     	      <div style="flex: 0 0 45%; margin: 10px;">
+           	    <img src="/colisp2024/img/NTNU_logo.png" alt="Image 1" style="max-width: 100%; height: auto;" />
+		    <p style="font-size: 24px; text-align: center;">國立臺灣師範大學圖書資訊學研究所</p>
+	      </div>
+     	      <div style="flex: 0 0 45%; margin: 10px;">
+           	    <img src="/colisp2024/img/LAROC_logo.png" alt="Image 2" style="max-width: 100%; height: auto;" />
+		    <p style="font-size: 24px; text-align: center;">中華民國圖書館學會</p>
+	      </div>
+              <div style="flex: 0 0 45%; margin: 10px;">
+                    <img src="/colisp2024/img/CALISE_logo.png" alt="Image 3" style="max-width: 100%; height: auto;" />
+		    <p style="font-size: 24px; text-align: center;">中華圖書資訊學教育學會</p>  
+	      </div>
+              <div style="flex: 0 0 45%; margin: 10px;">
+          	    <img src="/colisp2024/img/NCL_logo_.png" alt="Image 4" style="max-width: 100%; height: auto;" />
+		    <p style="font-size: 24px; text-align: center;">國家圖書館</p>    
+	      </div>
+	   </div>
+          </section>  
+	      
+        <footer class="footer">
+          
+        </footer>
+      </div>
+    </div>
+    <a href="#welcome" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>   
+	    
+        <footer class="footer">  
+        </footer>
+      </div>
+    </div>
+    <a href="#welcome" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+        <!-- JavaScript Libraries -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>  
+ </body>
+</html>
+
