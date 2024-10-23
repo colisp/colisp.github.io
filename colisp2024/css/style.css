@@ -2069,8 +2069,9 @@ td {
 }
 
 .footer .hosted .image-item img {
-    max-width: 80%;
+    width: 200px;
     height: auto;
+    object-fit: contain;	
 }
 
 .footer .hosted .image-item p {
