@@ -2031,10 +2031,16 @@ td {
     margin-top: 45px;
 }
 
+.footer .hosted .section-header {
+    border-top-width: 20px; /* 新增的邊框寬度 */
+    padding-top: 20px;
+    text-align: center;
+}
+
 .footer .hosted h2 {
     margin-bottom: 20px;
     padding-bottom: 10px;
-    font-size: 36px; /* 調整這裡以避免和主標題衝突 */
+    font-size: 36px; 
     font-weight: 600;
     color: #fdbe33;
     text-align: center;
@@ -2068,9 +2074,9 @@ td {
 }
 
 .footer .hosted .image-item p {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 10px;
-    color: #030f27;
+    color: #ffffff;
 }
 
 .footer .footer-contact,
