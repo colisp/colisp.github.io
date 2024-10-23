@@ -424,6 +424,7 @@ a:focus {
     position: relative;
     font-size: 38px;
     font-weight: 700;
+    text-align: left;
 }
 section a {
 	background: url(../img/ex_link.gif) right 60% no-repeat;
