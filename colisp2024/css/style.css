@@ -1808,3 +1808,27 @@ td {
     background: #030F27;
 }
 }
+
+/*******************************/
+/********* organization CSS **********/
+/*******************************/
+.organization {
+    margin-left: 20px;
+}
+
+.organization h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.organization .section-header {
+    border-top: 20px solid;
+    padding-top: 30px;
+}
+
+.organization .committee-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 24px;
+}
