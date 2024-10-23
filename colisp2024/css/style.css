@@ -2023,8 +2023,8 @@ td {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #030f27;
-    color: #ffffff;
+    background: #ffffff;
+    color: #004080;
 }
 
 .footer .hosted {
@@ -2069,14 +2069,14 @@ td {
 }
 
 .footer .hosted .image-item img {
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
 }
 
 .footer .hosted .image-item p {
     font-size: 24px;
     margin-top: 10px;
-    color: #ffffff;
+    color: #004080;
 }
 
 .footer .footer-contact,
