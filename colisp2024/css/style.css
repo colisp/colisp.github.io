@@ -403,6 +403,9 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 25px;
+    border-top-width:20px;
+    padding-top:20px;
+    text-align: center;
 }
 
 .section-header p {
