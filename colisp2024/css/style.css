@@ -420,7 +420,6 @@ a:focus {
     position: relative;
     font-size: 28px;
     font-weight: 700;
-    text-align: center;
 }
 section a {
 	background: url(../img/ex_link.gif) right 60% no-repeat;
