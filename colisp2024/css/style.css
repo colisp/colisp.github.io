@@ -2069,7 +2069,7 @@ td {
 }
 
 .footer .hosted .image-item img {
-    width: 200px;
+    width: 80%;
     height: auto;
     object-fit: contain;	
 }
