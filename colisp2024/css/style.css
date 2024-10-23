@@ -418,8 +418,9 @@ a:focus {
 .section-header h2 {
     margin: 0;
     position: relative;
-    font-size: 50px;
+    font-size: 200px;
     font-weight: 700;
+    text-align: center;
 }
 section a {
 	background: url(../img/ex_link.gif) right 60% no-repeat;
