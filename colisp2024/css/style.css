@@ -82,8 +82,9 @@ a:focus {
 
 .container {
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto; 
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 main {
@@ -94,6 +95,7 @@ main {
 aside {
     flex: 1;
     padding: 20px;
+    background-color: #f4f4f4;
 }
 
 /**********************************/
