@@ -6,6 +6,7 @@ body {
     background: #dddddd;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    fort-size: 18px;
 }
 
 h1,
@@ -418,7 +419,7 @@ a:focus {
 .section-header h2 {
     margin: 0;
     position: relative;
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 700;
 }
 section a {
