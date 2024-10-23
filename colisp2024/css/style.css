@@ -10,7 +10,9 @@ body {
 }
 
 h1,
-h2, 
+h2 {
+    font-size: 38px;
+}
 h3, 
 h4,
 h5, 
