@@ -49,6 +49,9 @@ a:focus {
   padding: 10px 0;
 }
 .content section {
+  padding-top: 40px;
+    padding-left: 20px;
+		padding-right: 20px;  
 }
 
 .back-to-top {
@@ -78,24 +81,6 @@ a:focus {
 
 .btn {
     transition: .3s;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-main {
-    flex: 3;
-    padding: 20px;
-}
-
-aside {
-    flex: 1;
-    padding: 20px;
-    background-color: #f4f4f4;
 }
 
 /**********************************/
