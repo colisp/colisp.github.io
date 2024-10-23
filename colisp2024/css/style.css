@@ -2034,9 +2034,10 @@ td {
     position: relative;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 60px;
     font-weight: 600;
     color: #fdbe33;
+    text-align: center;
 }
 
 .footer h2::after {
