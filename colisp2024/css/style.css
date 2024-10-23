@@ -2070,10 +2070,9 @@ td {
 .footer .hosted .image-item p {
     font-size: 20px;
     margin-top: 10px;
-    color: #ffffff; /* 保持白色文字以配合深色背景 */
+    color: #030f27;
 }
 
-/* 其他區域保持不變 */
 .footer .footer-contact,
 .footer .footer-link,
 .footer .newsletter {
