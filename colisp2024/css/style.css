@@ -83,21 +83,6 @@ a:focus {
     transition: .3s;
 }
 
-.container {
-    display: flex;
-}
-
-main {
-    flex: 3; 
-    padding: 20px; 
-}
-
-aside {
-    flex: 1; 
-    padding: 20px; 
-}
-
-
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
