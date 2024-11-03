@@ -772,13 +772,13 @@ h1, h2, h3 {
     margin: 10px 0;
 }
 
-.agenda-button-container {
+.button-container {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
 }
 
-.agenda-button {
+.button {
   background-color: #fdbe33;
   color: #030f27;
   padding: 30px 60px;
