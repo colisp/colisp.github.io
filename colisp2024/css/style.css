@@ -918,6 +918,8 @@ h1, h2, h3 {
     display: flex;
     gap: 20px;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Left column: 70% width */
@@ -927,7 +929,6 @@ h1, h2, h3 {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    overflow-y: auto;
 }
 
 /* Right column: 30% width */
@@ -937,7 +938,6 @@ h1, h2, h3 {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    overflow-y: auto;
 }
 
 /* Mobile Responsive */
@@ -950,3 +950,4 @@ h1, h2, h3 {
         flex: 1 1 auto;
     }
 }
+
