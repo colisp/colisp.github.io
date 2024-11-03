@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>ICADL 2021 - The 23rd International Conference on Asia-Pacific Digital Libraries</title>
+        <title>第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024</title>
   			<meta charset="utf-8">
-  			<meta name="description" content="The 23rd International Conference on Asia-Pacific Digital Libraries (ICADL 2021)"/>
-  			<meta name="keywords" content="Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries, ICADL"/>
+  			<meta name="description" content="COLISP2024: 4th Conference of LIS and Practices"/>
+  			<meta name="keywords" content="第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024, COLISP2024: 4th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries"/>
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -31,11 +31,15 @@
 				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
 				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
 				<script language="javascript" type="text/javascript">
+					/*
 					function getState(){
 			          //do getdata 
 			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
 			          console.log(news_list);
-			          for (var i = 0; i < news_list.length; i++) {
+			          for (var i = news_list.length-1; i >=0; i--) {
+			          	if (news_list[i].id=="stop"){
+			          		continue;
+			          	}
                 	notify(news_list[i].innerHTML,"Info");
             		}
 								
@@ -62,57 +66,51 @@
 				    	toastr.options.showMethod="fadeIn";
 				    	toastr.options.hideMethod="fadeOut";
 				    	toastr.options.closeMethod = "slideUp";
-				  }
-				</script>        
+				  }*/
+				</script>   
+
+ 	<style>
+ 	   html {
+   	   scroll-behavior: smooth;
+  	   }
+ 	</style>
     </head>
 
     <body>
-        <div class="wrapper">
-            <!-- Top Bar Start -->
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <h1>ICADL 2021</h1>
-                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
-                                </a>
-                            </div>
+    <div class="wrapper">
+        <!-- Top Bar Start -->
+        <div class="top-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="/colisp2024/img/CoLISP_LOGO.png" alt="CoLISP 2024 Logo" style="width: 70px; height: auto; margin-right: 10px;">
+                            </a>
                         </div>
-                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-calendar"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Registration</h3>
-                                            <p>Nov. 25, 2021</p>
-                                        </div>
+                        <h1 style="display: inline; margin: 0;">CoLISP 2024</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                        <div class="row" style="margin-left: 60px;">
+                            <div class="col-4" style="margin-right: 90px;">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="flaticon-calendar"></i>
                                     </div>
-                                </div>                                
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-calendar"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>OnLine meeting</h3>
-                                            <p>Dec. 1-3, 2021</p>                                           
-                                        </div>
+                                    <div class="top-bar-text">
+                                        <h3>Registration</h3>
+                                        <p>Sep. 1, 2024</p>
                                     </div>
                                 </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-send-mail"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Email Us</h3>
-                                            <p>icadl2021@easychair.org</p>
-                                        </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="flaticon-send-mail"></i>
+                                    </div>
+                                    <div class="top-bar-text">
+                                        <h3>Email Us</h3>
+                                        <p>clavenke@ntnu.edu.tw</p>
                                     </div>
                                 </div>
                             </div>
@@ -120,6 +118,7 @@
                     </div>
                 </div>
             </div>
+        </div>
             <!-- Top Bar End -->
 
             <!-- Nav Bar Start -->
@@ -132,52 +131,56 @@
                         </button>
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                           <div class="navbar-nav mr-auto">
-                                <a href="index.html#welcome" title="Welcome" class="nav-link">Welcome</a>
-                                <a href="index.html#news" title="News" class="nav-link">News</a>
+                            <div class="navbar-nav mr-auto">
+			        <div class="nav-item dropdown">
+                                   <a href="index.html#welcome" class="nav-link">首頁</a>
+			        </div>    
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Submission</a>
-                                    <div class="dropdown-menu">
-                                        <a href="index.html#cfp" class="dropdown-item">Call for Papers</a>                                    	
-                                        <a href="index.html#submission" class="dropdown-item">Submission</a>
-                                    </div>
-                                </div>									        			
-									        			<a href="index.html#dates" title="Important Dates" class="nav-link">Important Dates</a>
+                                    <a href="/colisp2024/organization.html" class="nav-link">>會議組織</a>
+                                </div>	
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Program</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議徵稿資訊</a>
                                     <div class="dropdown-menu">
-                                        <a href="index.html#Program" class="dropdown-item">Program</a>
-                                        <a href="keynotes.html" class="dropdown-item">Keynotes</a>
-                                        <a href="panel.html" class="dropdown-item">Panel</a>
-                                        <a href="socialevent.html" class="dropdown-item">Social event</a>
-                                        <a href="index.html#zoom" class="dropdown-item">ZOOM Instructions</a>
-                                    </div>
-                                </div>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Accepted papers</a>
-                                    <div class="dropdown-menu">
-                                        <a href="index.html#accepted" class="dropdown-item">Accepted papers</a>
-                                        <a href="index.html#proceedings" class="dropdown-item">Proceedings</a>
-                                        <a href="index.html#awards" class="dropdown-item">Awards</a>
+                                        <a href="index.html#cfp" class="dropdown-item">會議徵稿主題</a>
+					<a href="index.html#type" class="dropdown-item">會議徵稿種類</a>	
+					<a href="index.html#submission" class="dropdown-item">稿件格式與提交</a>	
                                     </div>
                                 </div> 
-																<div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Organizers</a>
-                                    <div class="dropdown-menu">
-                                        <a href="index.html#organizers" class="dropdown-item">Organizers</a>
-                                        <a href="index.html#host" class="dropdown-item">Host</a>
-                                    </div>
-                                </div>										        		                                        
-																<a href="APiConf.html" class="nav-link">AP-iConference</a>
+				<div class="nav-item dropdown">
+			            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議資訊</a>
+				    <div class="dropdown-menu">
+                                        <a href="/colisp2024/agenda.html" class="dropdown-item">會議議程</a>
+					<a href="/colisp2024/keynotes.html" class="dropdown-item">專題演講</a>		
+					<a href="index.html#accepted" class="dropdown-item">實務論壇</a>		
+					<a href="index.html#accepted" class="dropdown-item">國科會成果海報展</a>
+					<a href="index.html#accepted" class="dropdown-item">學術海報展</a>
+				    </div>
+				</div> 
+				<div class="nav-item dropdown">
+                                    <a href="https://easychair.org/account2/signin?l=6679768745752296730" class="nav-link" target="_blank">論文投稿</a>
+                                </div>
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">會議報名</a>
+                                </div>	
+ 				<div class="nav-item dropdown">
+                                    <a href="index.html#hotels" class="nav-link">會議場地</a>
+                                </div>
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">參展廠商</a>
+                                </div>
+				<div class="nav-item dropdown">
+                                    <a href="index.html#organizers" class="nav-link">聯絡資訊</a>
+                                </div>
                             </div>
-                            <div class="ml-auto">
-                                <a class="btn" href="#Registration">Registration</a>
-                            </div>
-                        </div>
+                            <div class="ml-auto">                            		
+                                <a class="btn" href="https://easychair.org/account2/signin?l=3195926240978875542">Registration</a>
+                            </div>                            
+                        </div>                        
                     </nav>
                 </div>
             </div>
-            <!-- Nav Bar End -->            
+            <!-- Nav Bar End -->    
+	    
     <div class="content" id="content">
     	            <!-- Page Header Start -->
             <div class="page-header">
