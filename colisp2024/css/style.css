@@ -787,8 +787,8 @@ h1, h2, h3 {
 .button {
   background-color: #fdbe33;
   color: #030f27;
-  padding: 30px 60px;
-  font-size: 36px;
+  padding: 15px 30px;
+  font-size: 24px;
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
