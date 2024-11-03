@@ -913,32 +913,33 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* Main content container */
-.main-content {
+/* 設定容器總寬度並置中 */
+.container {
     display: flex;
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 20px; /* 調整左右欄之間的間距 */
+    width: 80%; /* 調整這個值以縮小整體寬度 */
+    max-width: 1200px; /* 設定最大寬度，防止在大螢幕上過寬 */
+    margin: 0 auto; /* 置中容器 */
 }
 
-/* Left column: 70% width */
+/* 左邊欄位 */
 .left-column {
-    flex: 0 0 70%;
+    flex: 1;
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-/* Right column: 30% width */
+/* 右邊欄位 */
 .right-column {
-    flex: 0 0 30%;
+    flex: 1;
     background-color: #f1f1f1;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
