@@ -758,9 +758,6 @@ td {
     background-color: #f3f3f3;
 }
 
-.time-cell, .agenda-cell {
-    text-align: center;
-}
 
 .agenda-cell p, .agenda-cell ol {
     margin: 0;
