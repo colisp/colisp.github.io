@@ -740,13 +740,13 @@ td {
 }
 
 .day-header {
-    background-color: #030f27;
-    color: #fdbe33;	
+    background-color: #030f27;	
     color: white;
 }
 
 .day-title {
     font-size: 1.8em;
+    color: #fdbe33;	
     margin: 0;
 }
 
