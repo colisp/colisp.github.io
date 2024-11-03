@@ -45,9 +45,10 @@ a:focus {
     margin: 0 auto;
     background: #ffffff;
 }
+
 .content {	
-  padding: 10px 0;
 }
+
 .content section {
   padding-top: 40px;
     padding-left: 20px;
