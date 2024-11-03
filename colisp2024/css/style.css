@@ -51,8 +51,8 @@ a:focus {
 
 .content section {
   padding-top: 40px;
-    padding-left: 20px;
-		padding-right: 20px;  
+  padding-left: 20px;
+  padding-right: 20px;  
 }
 
 .back-to-top {
@@ -916,33 +916,35 @@ h1, h2, h3 {
 /* 設定容器置中對齊 */
 .container {
     display: block;
-    max-width: 1200px; /* 限制整體最大寬度 */
-    margin: 0 auto; /* 置中容器 */
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 /* 左邊欄位 */
 .left-column {
-    width: 70%; /* 設置左邊欄的寬度 */
-    max-width: 550px; /* 限制左邊欄的最大寬度 */
+    width: 70%; 
+    max-width: 550px; 
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     display: inline-block;
-    vertical-align: top; /* 使左右欄頂端對齊 */
+    vertical-align: top; 
+    text-align: left;
 }
 
 /* 右邊欄位 */
 .right-column {
-    width: 25%; /* 設置右邊欄的寬度 */
-    max-width: 300px; /* 限制右邊欄的最大寬度 */
+    width: 25%; 
+    max-width: 300px;
     background-color: #f1f1f1;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     display: inline-block;
-    vertical-align: top; /* 使左右欄頂端對齊 */
-    margin-left: 2%; /* 加一點間距 */
+    vertical-align: top; 
+    margin-left: 2%; 
+    text-align: right;	
 }
 
 
