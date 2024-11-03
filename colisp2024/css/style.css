@@ -767,8 +767,11 @@ td {
     text-align: center;
     font-size: 1.2em;
     min-width: 150px;
-    width: 180px; /* Adjust the width as needed */
+    width: 180px;
     vertical-align: middle;
+    position: sticky;
+    right: 0;
+    z-index: 1;
 }
 
 /* Styling for Keynote and other events */
