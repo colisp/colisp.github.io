@@ -792,3 +792,7 @@ h1, h2, h3 {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
+.agenda-button:hover {
+  background-color: #ffcc4d;
+}
