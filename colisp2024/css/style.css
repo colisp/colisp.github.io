@@ -742,6 +742,7 @@ td {
 .day-header {
     background-color: #030f27;	
     color: white;
+    padding: 15px 0;
 }
 
 .day-title {
