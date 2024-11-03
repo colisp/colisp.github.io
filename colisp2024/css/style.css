@@ -935,7 +935,7 @@ h1, h2, h3 {
 
 /* 右邊欄位 */
 .right-column {
-    width: 25%; 
+    width: 20%; 
     max-width: 300px;
     background-color: #f1f1f1;
     padding: 20px;
