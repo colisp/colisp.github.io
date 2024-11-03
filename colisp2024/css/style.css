@@ -923,7 +923,7 @@ h1, h2, h3 {
 /* 左邊欄位 */
 .left-column {
     width: 70%; /* 設置左邊欄的寬度 */
-    max-width: 800px; /* 限制左邊欄的最大寬度 */
+    max-width: 600px; /* 限制左邊欄的最大寬度 */
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #ddd;
