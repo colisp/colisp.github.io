@@ -771,3 +771,24 @@ td {
 h1, h2, h3 {
     margin: 10px 0;
 }
+
+.agenda-button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.agenda-button {
+  background-color: #fdbe33;
+  color: #030f27;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.agenda-button:hover {
+  background-color: #ffcc4d;
+}
