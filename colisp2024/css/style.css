@@ -709,3 +709,75 @@ td {
     text-align: left;
     font-size: 24px;
 }
+
+/*******************************/
+/********* agenda CSS **********/
+/*******************************/
+.agenda {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.agenda-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.agenda-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.agenda-table th, .agenda-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Header Row */
+.day-header {
+    background-color: #030f27;
+    color: white;
+}
+
+.day-title {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* Column Styles */
+.time-header {
+    background-color: #f3f3f3;
+    width: 15%;
+}
+
+.agenda-header {
+    background-color: #f3f3f3;
+}
+
+.time-cell, .agenda-cell {
+    text-align: center;
+}
+
+.poster-exhibition {
+    background-color: #ADD8E6;
+    font-size: 1.2em;
+    min-width: 150px;
+    width: 180px; /* Adjust the width as needed */
+    vertical-align: middle;
+}
+
+/* Styling for Keynote and other events */
+.agenda-cell p, .agenda-cell ol {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+
+/* Special Sections */
+h1, h2, h3 {
+    margin: 10px 0;
+}
