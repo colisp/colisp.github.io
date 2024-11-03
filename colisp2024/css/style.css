@@ -722,6 +722,7 @@ td {
     font-size: 48px;
     color: #333;
     margin-bottom: 20px;
+    margin-bottom: 20px;	
 }
 
 .agenda-table {
@@ -737,7 +738,6 @@ td {
     vertical-align: middle;
 }
 
-/* Header Row */
 .day-header {
     background-color: #030f27;
     color: white;
