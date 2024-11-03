@@ -611,7 +611,7 @@ td {
 }
 
 .footer .hosted .section-header {
-    border-top-width: 20px; /* 新增的邊框寬度 */
+    border-top-width: 20px;
     padding-top: 20px;
     text-align: center;
 }
@@ -750,12 +750,14 @@ td {
 
 /* Column Styles */
 .time-header {
-    background-color: #f3f3f3;
+    font-size: 48px;	
+    background-color: #030f27;
     width: 15%;
 }
 
 .agenda-header {
-    background-color: #f3f3f3;
+    font-size: 48px;	
+    background-color: #030f27;
 }
 
 
