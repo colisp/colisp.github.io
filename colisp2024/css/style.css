@@ -750,13 +750,15 @@ td {
 
 /* Column Styles */
 .time-header {
-    font-size: 48px;	
+    font-size: 36px;
+    color: #fdbe33;
     background-color: #030f27;
     width: 15%;
 }
 
 .agenda-header {
-    font-size: 48px;	
+    font-size: 36px;
+    color: #fdbe33;
     background-color: #030f27;
 }
 
