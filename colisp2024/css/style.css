@@ -722,7 +722,8 @@ td {
     font-size: 48px;
     color: #333;
     margin-top: 10px;
-    margin-bottom: 20px;	
+    margin-bottom: 40px;
+    text-align: left;
 }
 
 .agenda-table {
