@@ -748,6 +748,15 @@ td {
     margin: 0;
 }
 
+.agenda-square-list {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.agenda-square-list li {
+  margin-bottom: 10px;
+}
+
 /* Column Styles */
 .time-header {
     font-size: 36px;
