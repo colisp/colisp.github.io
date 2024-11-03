@@ -923,7 +923,7 @@ h1, h2, h3 {
 /* 左邊欄位 */
 .left-column {
     width: 70%; /* 設置左邊欄的寬度 */
-    max-width: 600px; /* 限制左邊欄的最大寬度 */
+    max-width: 550px; /* 限制左邊欄的最大寬度 */
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #ddd;
@@ -934,8 +934,8 @@ h1, h2, h3 {
 
 /* 右邊欄位 */
 .right-column {
-    width: 28%; /* 設置右邊欄的寬度 */
-    max-width: 350px; /* 限制右邊欄的最大寬度 */
+    width: 25%; /* 設置右邊欄的寬度 */
+    max-width: 300px; /* 限制右邊欄的最大寬度 */
     background-color: #f1f1f1;
     padding: 20px;
     border: 1px solid #ddd;
