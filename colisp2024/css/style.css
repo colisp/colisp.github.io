@@ -775,6 +775,7 @@ h1, h2, h3 {
 .agenda-button-container {
   display: flex;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .agenda-button {
