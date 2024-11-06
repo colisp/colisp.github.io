@@ -32,8 +32,8 @@
     });
     
     
-    // Dropdown on mouse hover
-    $(document).ready(function () {
+    //Dropdown on mouse hover 
+    /*$(document).ready(function () {
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
                 $('.navbar .dropdown').on('mouseover', function () {
@@ -48,7 +48,7 @@
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
     });
-    
+    */
     
     // jQuery counterUp
     $('[data-toggle="counter-up"]').counterUp({
