@@ -359,14 +359,18 @@ table {
 	margin-top: 10px;
 	width: 100%;  
 }
+
 table th {
-	background: #E3ECC0;
+	background: #fdbe33;
+	color: #030f27;
 	text-align: center;
 }
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #FFF}
+
 td {
   vertical-align: middle;
+  color: #030f27;	
   height:30px;
   padding: 3px;
   line-height:150%
