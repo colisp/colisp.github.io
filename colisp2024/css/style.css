@@ -953,6 +953,16 @@ h1, h2, h3 {
     background-color: #f9f9f9;
 }
 
+#fourmmain .bordered {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    padding-bottom: 5px; /* 線與文字之間的間距 */
+    border-bottom: 1px solid #ddd; /* 細線的樣式與顏色 */
+    display: inline-block; /* 避免線條延展到文字之外 */
+}
+
 #fourmmain .center-title {
     text-align: center;
     font-size: 20px; /* 可調整字體大小 */
