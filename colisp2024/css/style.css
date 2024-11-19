@@ -902,14 +902,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* 設定容器置中對齊 */
 .container {
     display: block;
     max-width: 1200px; 
     margin: 0 auto;
 }
 
-/* 左邊欄位 */
 .left-column {
     width: 70%; 
     max-width: 550px; 
@@ -922,7 +920,6 @@ h1, h2, h3 {
     text-align: left;
 }
 
-/* 右邊欄位 */
 .right-column {
     width: 20%; 
     max-width: 300px;
@@ -935,9 +932,6 @@ h1, h2, h3 {
     margin-left: 2%; 
 }
 
-
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
     .main-content {
         flex-direction: column;
@@ -948,3 +942,49 @@ h1, h2, h3 {
     }
 }
 
+/*******************************/
+/******** fourmmain CSS ********/
+/*******************************/
+
+#fourmmain {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+#fourmmain .center-title {
+    text-align: center;
+    font-size: 20px; /* 可調整字體大小 */
+    margin-bottom: 20px; /* 與下方內容的間距 */
+    color: #333; /* 文字顏色 */
+}
+
+#fourmmain .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#fourmmain .section {
+    margin-bottom: 20px;
+}
+
+#fourmmain .section h3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+    font-size: 18px;
+}
+
+#fourmmain .section p {
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+#fourmmain .summary {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
