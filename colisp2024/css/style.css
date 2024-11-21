@@ -1071,3 +1071,13 @@ h1, h2, h3 {
 .poster-container .poster td:nth-child(2) {
     width: 17%; /* 增加計畫主持人欄寬 */
 }
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
