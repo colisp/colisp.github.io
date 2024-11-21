@@ -1003,6 +1003,7 @@ h1, h2, h3 {
 /********** poster CSS *********/
 /*******************************/
 
+/* Poster 樣式定義在 .poster-container 內，避免影響其他區域 */
 .poster-container {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -1050,11 +1051,29 @@ h1, h2, h3 {
 }
 
 .poster-container .poster td {
-    border: 1px solid #ddd;
+    border-top: 1px solid #ddd; /* 添加淺灰色分隔線 */
     padding: 10px;
-    text-align: center;
+    text-align: center; /* 表格內容置中 */
     background-color: #ffffff;
 }
+
+.poster-container .poster tr {
+    background-color: #ffffff; /* 移除灰白相間效果，統一背景 */
+}
+
+/* 設定「海報展編號」欄位的寬度 */
+.poster-container .poster th:nth-child(1),
+.poster-container .poster td:nth-child(1) {
+    width: 10%; /* 增加海報展編號欄寬 */
+}
+
+/* 設定「計畫主持人」欄位的寬度 */
+.poster-container .poster th:nth-child(2),
+.poster-container .poster td:nth-child(2) {
+    width: 20%; /* 增加計畫主持人欄寬 */
+}
+
+
 
 .poster-container .poster tr:nth-child(even) {
     background-color: #f2f2f2;
