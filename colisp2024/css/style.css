@@ -1072,6 +1072,19 @@ h1, h2, h3 {
     width: 17%; /* 增加計畫主持人欄寬 */
 }
 
+.poster-container a {
+    color: #030F27;
+    text-decoration: none;
+}
+
+.poster-container a:hover {
+    color: #555555;
+}
+
+.poster-container a:visited {
+    color: #555555;
+}
+
 blockquote {
     display: block;
     margin-block-start: 1em;
