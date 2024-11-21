@@ -1012,11 +1012,10 @@ h1, h2, h3 {
 }
 
 .poster-container .title {
-    background-color: #030f27;
-    color: #fdbe33;
     text-align: center;
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 48px;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -1053,28 +1052,21 @@ h1, h2, h3 {
 .poster-container .poster td {
     border-top: 1px solid #ddd; /* 添加淺灰色分隔線 */
     padding: 10px;
-    text-align: center; /* 表格內容置中 */
     background-color: #ffffff;
 }
 
 .poster-container .poster tr {
-    background-color: #ffffff; /* 移除灰白相間效果，統一背景 */
+    background-color: #ffffff; 
 }
 
 /* 設定「海報展編號」欄位的寬度 */
 .poster-container .poster th:nth-child(1),
 .poster-container .poster td:nth-child(1) {
-    width: 10%; /* 增加海報展編號欄寬 */
+    width: 17%;
 }
 
 /* 設定「計畫主持人」欄位的寬度 */
 .poster-container .poster th:nth-child(2),
 .poster-container .poster td:nth-child(2) {
-    width: 20%; /* 增加計畫主持人欄寬 */
-}
-
-
-
-.poster-container .poster tr:nth-child(even) {
-    background-color: #f2f2f2;
+    width: 17%; /* 增加計畫主持人欄寬 */
 }
