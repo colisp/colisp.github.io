@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024</title>
+  <meta charset="utf-8">
+  <meta name="description" content="COLISP2024: 4th Conference of LIS and Practices" />
+  <meta name="keywords"
+    content="第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024, COLISP2024: 4th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Libraries -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+  <link href="lib/slick/slick.css" rel="stylesheet">
+  <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- toast notify -->
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+  <link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" type="text/javascript">
+    /*
+    function getState(){
+          //do getdata 
+          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+          console.log(news_list);
+          for (var i = news_list.length-1; i >=0; i--) {
+            if (news_list[i].id=="stop"){
+              continue;
+            }
+            notify(news_list[i].innerHTML,"Info");
+          }
+        	
+         // setTimeout('getState();',1000); //100ms
+    }	
+    function notify(name,sdate) {
+        toastr.success(name,sdate,{positionClass: "toast-top-right"});
+        toastr.options.closeButton = false;
+        //toastr.options.closeMethod = 'fadeOut';
+        //toastr.options.closeDuration = 300;
+        //toastr.options.closeEasing = 'swing';
+        toastr.options.debug=false;
+  //    	toastr.options.newestOnTop=true;
+        toastr.options.progressBar=true;
+        //toastr.options.positionClass="toast-top-full-width";
+        //toastr.options.preventDuplicates=false;
+        toastr.options.onclick=null;
+        toastr.options.showDuration=500;
+        toastr.options.hideDuration=300;
+        toastr.options.timeOut=10000;
+        toastr.options.extendedTimeOut=1000;
+        toastr.options.showEasing="swing";
+        toastr.options.hideEasing="linear";
+        toastr.options.showMethod="fadeIn";
+        toastr.options.hideMethod="fadeOut";
+        toastr.options.closeMethod = "slideUp";
+    }*/
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Top Bar Start -->
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-12 d-flex align-items-center">
+            <div class="logo">
+              <a href="index.html">
+                <img src="/colisp2024/img/CoLISP_LOGO.png" alt="CoLISP 2024 Logo"
+                  style="width: 70px; height: auto; margin-right: 10px;">
+              </a>
+            </div>
+            <h1 style="display: inline; margin: 0;">CoLISP 2024</h1>
+          </div>
+          <div class="col-lg-8 col-md-7 d-none d-lg-block">
+            <div class="row" style="margin-left: 60px;">
+              <div class="col-4" style="margin-right: 90px;">
+                <div class="top-bar-item">
+                  <div class="top-bar-icon">
+                    <i class="flaticon-calendar"></i>
+                  </div>
+                  <div class="top-bar-text">
+                    <h3>Conference date</h3>
+                    <p>Dec. 13-14, 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="top-bar-item">
+                  <div class="top-bar-icon">
+                    <i class="flaticon-send-mail"></i>
+                  </div>
+                  <div class="top-bar-text">
+                    <h3>Email Us</h3>
+                    <p>clavenke@ntnu.edu.tw</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav-bar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav mr-auto">
+              <div class="nav-item dropdown">
+                <a href="index.html#welcome" class="nav-link">首頁</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="https://www.lac.org.tw/civicrm/event/register?id=314&reset=1" class="nav-link" target="_blank">會議報名</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="/colisp2024/organization.html" class="nav-link">會議組織</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議徵稿資訊</a>
+                <div class="dropdown-menu">
+                  <a href="index.html#cfp" class="dropdown-item">會議徵稿主題</a>
+                  <a href="index.html#type" class="dropdown-item">會議徵稿種類</a>
+                  <a href="index.html#submission" class="dropdown-item">稿件格式與提交</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議資訊</a>
+                <div class="dropdown-menu">
+                  <a href="/colisp2024/agenda.html" class="dropdown-item">會議議程</a>
+                  <a href="/colisp2024/keynotes.html" class="dropdown-item">專題演講</a>
+                  <a href="/colisp2024/forum.html" class="dropdown-item">實務論壇</a>
+                  <a href="index.html#accepted" class="dropdown-item">國科會成果海報展</a>
+                  <a href="index.html#accepted" class="dropdown-item">學術海報展</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="https://easychair.org/account2/signin?l=6679768745752296730" class="nav-link"
+                  target="_blank">論文投稿</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="index.html#hotels" class="nav-link">會議場地</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="index.html#organizers" class="nav-link">參展廠商</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="index.html#organizers" class="nav-link">聯絡資訊</a>
+              </div>
+            </div>
+            <div class="ml-auto">
+              <a class="btn" href="https://www.lac.org.tw/civicrm/event/register?id=314&reset=1" target="_blank">會議報名</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+    <div class="content" id="content">
+      <div class="wrapper">
+        <div class="header">
+          <h1 class="logo-name">
+            <a class="logo-link" href="#welcome" title="" itemprop="name"></a><!-- don't show banner word-->
+          </h1>
+        </div>
+
+     <!-- fourmMain -->
+     <!-- fourmMain 2 -->
+    <div id="fourmmain">
+        <h2 class="center-title bordered" style="font-size: 36px; line-height: 1.4;">COLISP 2024<br>「人工智慧浪潮下的圖書資訊學研究與實務」「大學圖書館的AI服務實踐」論壇<br></h2>
+        <div data-aos="fade-right" class="section">
+        <div class="forumsection" style="display: flex; align-items: center;">
+          <h3 style="font-size: 24px; display: flex; align-items: center; background-color: #f0f0f0; padding: 10px; border-left: 5px solid #030f27;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
+              <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="9.654" cy="14.5274" r="0.827004" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 18.1111V17.8354C8 16.9219 8.74052 16.1814 9.65401 16.1814V16.1814C10.5675 16.1814 11.308 16.9219 11.308 17.8354V18.1111" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="14.346" cy="14.5274" r="0.827004" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.692 18.1111V17.8354C12.692 16.9219 13.4325 16.1814 14.346 16.1814V16.1814C15.2595 16.1814 16 16.9219 16 17.8354V18.1111" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            實務論壇 2
+          </h3>
+        </div>
+            <p>時間：113年12月14(六) 下午13:30–14:50 (時間80分鐘)</p>
+            <p>地點：會場三(3F)301會議室</p>
+            <p>主題：數位工具在檔案管理的實踐</p>
+        </div>
+        <div data-aos="fade-right" class="section">
+            <h3>引言人：</h3>
+            <p>林巧敏／國立政治大學圖書資訊與檔案學研究所特聘教授兼圖書館副館長</p>
+        </div>
+        <div data-aos="fade-right" class="section">
+            <h3>與談人：</h3>
+            <p>吳紹群／國立故宮博物院數位資訊室正研究員</p>
+            <p>林其範／檔案管理局文書檔案資訊組副組長</p>
+            <p>鄭有容／國立政治大學圖書資訊與檔案學研究所助理教授</p>
+        </div>
+        <div data-aos="fade-right" class="summary">
+            <h3>摘要：</h3>
+            <p>&emsp;&emsp;隨著數位技術的進展與人文學的交叉融合，數位工具導入人文學（數位人文）為檔案管理注入嶄新的活力與視角。檔案管理導入數位工具的運用，對於檔案管理的徵集鑑定、典藏管理以及資訊服務皆帶來創新的作業模式，讓傳統檔案從靜態的保存轉化為動態的知識資源。</p>
+            <p>&emsp;&emsp;基於過往檔案數位典藏的成果，檔案應用不只是單純的紙本掃描，而是能通過光學字元辨識（OCR）、文本標註與自然語言處理等技術，將文檔轉化為易於檢索與分析的資訊，讓使用者能迅速發現檔案中隱性的關聯與歷史脈絡，實現更深入的資料解讀，或藉由檔案開放共筆描述，增進檔案檢索及應用；若結合地理資訊系統（GIS）、網絡分析與資訊視覺化工具，能將分散於不同地點與時代的檔案進行整合，並以地圖、時間軸或互動圖表的形式，呈現其間的關聯與演變。</p>
+            <p>&emsp;&emsp;數位工具不僅賦予了傳統檔案新的生命力，更促進了人類文化資產的數位保存和知識的持續創新。隨著數位工具的推陳出新，勢必為檔案管理帶來更多潛在的可能發展。本場次將邀請典藏清朝內閣大庫檔案的故宮博物院、檔案主管機關檔案管理局以國內檔案教育機構之學者專家，分享對於數位工具導入檔案管理的洞見。<br><br></p>
+        </div>
+    </div>  
+     <!-- fourmMain 3 -->
+    <div id="fourmmain">
+        <div data-aos="fade-right" class="section">
+        <div class="forumsection" style="display: flex; align-items: center;">
+          <h3 style="font-size: 24px; display: flex; align-items: center; background-color: #f0f0f0; padding: 10px; border-left: 5px solid #030f27;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
+              <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="9.654" cy="14.5274" r="0.827004" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 18.1111V17.8354C8 16.9219 8.74052 16.1814 9.65401 16.1814V16.1814C10.5675 16.1814 11.308 16.9219 11.308 17.8354V18.1111" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="14.346" cy="14.5274" r="0.827004" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.692 18.1111V17.8354C12.692 16.9219 13.4325 16.1814 14.346 16.1814V16.1814C15.2595 16.1814 16 16.9219 16 17.8354V18.1111" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            實務論壇 3
+          </h3>
+        </div>
+            <p>時間：時間：113年12月14(六) 下午15:00-16:20 (時間80分鐘)</p>
+            <p>地點：會場二(1F)129簡報室</p>
+            <p>主題：大學圖書館的AI服務實踐</p>
+        </div>
+        <div data-aos="fade-right" class="section">
+            <h3>引言人：</h3>
+            <p>宋慧筠／國立中興大學圖書資訊學研究所教授兼圖書館館長</p>
+        </div>
+        <div data-aos="fade-right" class="section">
+            <h3>與談人：</h3>
+            <p>陳慧華／國立臺灣大學圖書館系統資訊組組⻑</p>
+            <p>黃明居／國立陽明交通大學運輸與物流管理系教授兼圖書館館長</p>
+            <p>宋雪芳／淡江大學資訊與圖書館學系副教授兼圖書館館長</p>
+            <p>李惠珠／高雄醫學大學圖書資訊處副圖書資訊長</p>
+        </div>
+        <div data-aos="fade-right" class="summary">
+            <h3>摘要：</h3>
+            <p>&emsp;&emsp;人工智慧（AI）在學術圖書館已成為多年來的趨勢，但隨著 ChatGPT 和其他生成式 AI工具的推出，該議題再次引發關注，這可能對學術圖書館的未來帶來重大影響。本論壇特別邀請臺灣大學、陽明交通大學、淡江大學及高雄醫學大學圖書館館長及組長，一起探討及分享其在 AI 應用上的實務經驗，期待透過論壇促進圖書館專業人員在 AI技術與實務上的知識交流與應用發展。<br><br></p>
+        </div>
+    </div>
+     <!-- fourmMain 4 -->
+    <div id="fourmmain">
+        <div data-aos="fade-right" class="section">
+        <div class="forumsection" style="display: flex; align-items: center;">
+          <h3 style="font-size: 24px; display: flex; align-items: center; background-color: #f0f0f0; padding: 10px; border-left: 5px solid #030f27;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
+              <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="9.654" cy="14.5274" r="0.827004" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 18.1111V17.8354C8 16.9219 8.74052 16.1814 9.65401 16.1814V16.1814C10.5675 16.1814 11.308 16.9219 11.308 17.8354V18.1111" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="14.346" cy="14.5274" r="0.827004" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.692 18.1111V17.8354C12.692 16.9219 13.4325 16.1814 14.346 16.1814V16.1814C15.2595 16.1814 16 16.9219 16 17.8354V18.1111" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            實務論壇 4
+          </h3>
+        </div>
+            <p>時間：113年12月14(六) 下午15:00-16:20 (時間80分鐘)</p>
+            <p>地點：會場三(3F)301會議室</p>
+            <p>主題：學校圖書館的閱讀實踐力</p>
+        </div>
+        <div data-aos="fade-right" class="section">
+            <h3>引言人：</h3>
+            <p>曾品方／國立臺灣師範大學圖書資訊學研究所兼任助理教授</p>
+        </div>
+        <div data-aos="fade-right" class="section">
+            <h3>與談人：</h3>
+            <p>邱怡雯／宜蘭縣蘇澳國小圖書教師</p>
+            <p>魏伶容／基隆市武崙國中圖書教師</p>
+            <p>范綺萍／新北市秀峰高中圖書館主任</p>
+        </div>
+        <div data-aos="fade-right" class="summary">
+            <h3>摘要：</h3>
+            <p>
+                &emsp;&emsp;閱讀力就是學習力，尤其是在AI時代，更需從小奠定善用科技工具與多元策略的基礎材，本論壇邀請特別邀請宜蘭縣蘇澳國小、基隆市武崙國中、新北市秀峰高中的圖書館的管理者，分別就「閱讀與寫作，AI工具來助攻」、「多元策略融入閱讀媒材」、「讀秀峰采，永續培力」三大面向，對談AI時代下的閱讀實踐力，呈現跨區域、跨階段的實務工作，期許能以學校圖書館為基地，與全校親師生一起邁向閱讀的新格局。<br><br><br><br><br></p>
+        </div>
+    </div>      
+        
+        
+
+      <hr style="border: 1px solid #030f27; margin: 20px 0;" />
+
+      <footer class="footer">
+        <!-- Hosted -->
+        <section class="Hosted" id="Hosted">
+          <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+            <h2>主辦單位</h2>
+          </div>
+          <div class="image-container"
+            style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;">
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/LAROC_logo.png" alt="Image 1" style="max-width: 100%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">中華民國圖書館學會</p>
+            </div>
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/CALISE_logo.png" alt="Image 2" style="max-width: 100%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">中華圖書資訊學教育學會</p>
+            </div>
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/NTNU_logo.png" alt="Image 3" style="height: 100px; width: auto;" />
+              <p style="font-size: 24px; text-align: center;">國立臺灣師範大學圖書資訊學研究所</p>
+            </div>
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/NCCU_logo.jpg" alt="Image 4" style="height: 100px; width: auto;" />
+              <p style="font-size: 24px; text-align: center;">國立政治大學圖書資訊與檔案學研究所</p><br>
+            </div>
+            <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+              <h2>協辦單位</h2>
+            </div>
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/NCL_logo_.png" alt="Image 5" style="max-width: 90%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">國家圖書館</p>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </div>
+  <a href="#welcome" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+  <!-- JavaScript Libraries -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/slick/slick.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
