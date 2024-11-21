@@ -1028,6 +1028,7 @@ h1, h2, h3 {
 
 .poster-container .table-title {
     text-align: center;
+    font-size: 36px;	
     font-size: 1.3em;
     color: #030f27;
     margin: 10px auto;
