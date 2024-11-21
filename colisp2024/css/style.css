@@ -1085,12 +1085,29 @@ h1, h2, h3 {
     color: #555555;
 }
 
-blockquote {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-    unicode-bidi: isolate;
+.poster .container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
 }
+
+.poster .gray-bar {
+    width: 5px;
+    height: 100%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.poster .content {
+    line-height: 1.5;
+}
+
+.poster .content h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+
+
+
 
