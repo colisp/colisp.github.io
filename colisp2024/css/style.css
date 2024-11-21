@@ -1008,7 +1008,6 @@ h1, h2, h3 {
 /* Poster 樣式定義在 .poster-container 內，避免影響其他區域 */
 .poster-container {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
