@@ -1,4 +1,17 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+#land-page{
+    background-color: brown;
+    height: 100vh;
+}
+
+.land-page-text {
+    color: white;
+    /* font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0; */
 }
