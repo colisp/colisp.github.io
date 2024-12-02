@@ -11,6 +11,8 @@
   <!-- bootstrap css v5.3.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- animate css v4.1.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- css -->
   <link rel="stylesheet" href="colisp2024/css/index.css">
   <!-- google font -->
@@ -24,9 +26,10 @@
 </head>
 
 <body>
-  <div class="container-fluid" id="land-page">
+  <!-- loading page -->
+  <!-- <div class="container-fluid" id="land-page">
     <div class="row" style="height: 100vh;">
-      <div class="col-md-4 d-flex justify-content-center align-items-center">
+      <div class="col-md-4 d-flex justify-content-center align-items-center animate__animated animate__bounceInLeft">
         <p class="fs-2 fw-bold land-page-text">C o L I S P</p>
       </div>
       <div class="col-md-4 d-flex justify-content-center align-items-center">
@@ -34,11 +37,73 @@
           <span class="visually-hidden">Loading...</span>
         </div>
       </div>
-      <div class="col-md-4 d-flex justify-content-center align-items-center">
+      <div class="col-md-4 d-flex justify-content-center align-items-center animate__animated animate__bounceInRight">
         <p class="fs-2 fw-bold land-page-text">圖書資訊學術與實務研討會</p>
       </div>
     </div>
-  </div>
+  </div> -->
+  <!-- main content -->
+  <section class="container-fluid" id="page-bg">
+    <div class="row d-flex justify-content-evenly align-items-center" style="height: 100vh;">
+      <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <!-- <img src="colisp2024/img/colisp_new_logo.png" style="max-width: 100%; height: auto;" alt=""> -->
+        <p class="fs-1 fw-bolder text-light">C O L I S P</p>
+        <p class="fs-3 fw-bolder text-light">Conference of LIS and Practices</p>
+        <p class="fs-2 fw-bolder text-light">圖書資訊學術與實務研討會</p>
+      </div>
+      <div class="col-md-6">
+        <div class="card container-fluid" style="background-color: #edede9;">
+          <div class="card-body row">
+            <div class="col-2 d-flex justify-content-evenly align-items-center m-0 p-0" id="arrow-left">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+                viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#9e9e9e">
+                <g id="ARROW__x2F__LEFT_1_" enable-background="new    " fill="#9e9e9e">
+                  <g id="ARROW__x2F__LEFT" fill="#9e9e9e">
+                    <g fill="#9e9e9e">
+                      <path
+                        d="M43.16,47.917L27.236,31.994l15.718-15.718C43.594,15.725,44,14.91,44,14c0-1.657-1.343-3-3-3&#10;&#9;&#9;&#9;&#9;c-0.807,0-1.536,0.318-2.075,0.835l-0.008-0.008l-18,18l0.001,0.001C20.352,30.374,20,31.139,20,31.987c0,0.002,0,0.004,0,0.007&#10;&#9;&#9;&#9;&#9;c0,0.002,0,0.004,0,0.007c0,0.849,0.352,1.613,0.918,2.159l-0.001,0.001l18,18l0.001-0.001C39.458,52.68,40.191,53,41,53&#10;&#9;&#9;&#9;&#9;c1.657,0,3-1.343,3-3C44,49.191,43.68,48.458,43.16,47.917L43.16,47.917z"
+                        fill="#9e9e9e" />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="col-8 d-flex flex-column" id="main-item" data-item="0">
+              <p class="fs-3 fw-bold text-center card-title" id="item-title" style="color: #9E2A2B;">「圖書資訊學術與實務研討會」</p>
+              <p class="fs-4 fw-bold text-center card-title" id="item-subtitle" style="color: #540B0E;">(Conference of
+                LIS and Practices, CoLISP)</p>
+              <div class="card-text" id="item-content" style="font-size: 1rem;">
+                <p class="lh-lg">
+                  中華民國圖書館學會長期以來致力臺灣各類型圖書館的發展，推動圖書館界的各項活動，每年透過會員大會聚合圖書資訊學界、館界、業界的前輩與同儕，除了持續強化圖書資訊發展的網絡，匯集檢視該年度工作成果，並討論訂定下年度的工作規劃。
+                </p>
+                <p class="lh-lg">
+                  經本會邀集各圖資學術機構與圖書館於2021年1月14日召開「中華民國圖書館學會2021年研討會暨會員大會籌備會議」，於會中決議自2021年起，將會員大會擴展為兩天的學術與實務研討會，並規劃十個年度之承辦單位，及後續將會議名稱定為「圖書資訊學術與實務研討會」(Conference
+                  of LIS and Practices, CoLISP)，以匯聚各界同仁，作為學界與館界展現研究與創新成果的發表場域，同時舉辨會員大會，目標是建構具有口碑與持續的年度盛會。
+                </p>
+              </div>
+              <a class="btn btn-primary" id="item-link" href="https://www.lac.org.tw/">相關連結</a>
+            </div>
+            <div class="col-2 d-flex justify-content-evenly align-items-center m-0 p-0" id="arrow-right">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+                viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#9e9e9e">
+                <g id="ARROW__x2F__RIGHT_1_" enable-background="new    " fill="#9e9e9e">
+                  <g id="ARROW__x2F__RIGHT" fill="#9e9e9e">
+                    <g fill="#9e9e9e">
+                      <path
+                        d="M44,31.994c0-0.002,0-0.005,0-0.007c0-0.848-0.352-1.613-0.918-2.159l0.001-0.001l-18-18l-0.008,0.008&#10;&#9;&#9;&#9;&#9;C24.536,11.318,23.806,11,23,11c-1.657,0-3,1.343-3,3c0,0.91,0.406,1.725,1.046,2.275l15.718,15.718L20.84,47.917l0.001,0.001&#10;&#9;&#9;&#9;&#9;C20.321,48.458,20,49.191,20,50c0,1.657,1.343,3,3,3c0.809,0,1.542-0.32,2.082-0.841l0.001,0.001l18-18l-0.001-0.001&#10;&#9;&#9;&#9;&#9;C43.648,33.613,44,32.848,44,32C44,31.998,44,31.996,44,31.994z"
+                        fill="#9e9e9e" />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- bootstrap js v5.3.3 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -46,6 +111,105 @@
   <!-- jquery v3.7.1 -->
   <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
     integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script>
+    let itemData = [
+      {
+        title: '「圖書資訊學術與實務研討會」',
+        subtitle: '(Conference of LIS and Practices, CoLISP)',
+        content: "<p class='lh-lg'>中華民國圖書館學會長期以來致力臺灣各類型圖書館的發展，推動圖書館界的各項活動，每年透過會員大會聚合圖書資訊學界、館界、業界的前輩與同儕，除了持續強化圖書資訊發展的網絡，匯集檢視該年度工作成果，並討論訂定下年度的工作規劃。</p>" +
+          "<p class='lh-lg'>經本會邀集各圖資學術機構與圖書館於2021年1月14日召開「中華民國圖書館學會2021年研討會暨會員大會籌備會議」，於會中決議自2021年起，將會員大會擴展為兩天的學術與實務研討會，並規劃十個年度之承辦單位，及後續將會議名稱定為「圖書資訊學術與實務研討會」(Conference of LIS and Practices, CoLISP)，以匯聚各界同仁，作為學界與館界展現研究與創新成果的發表場域，同時舉辨會員大會，目標是建構具有口碑與持續的年度盛會。</p>",
+        bg: 'colisp2024/img/index-1.jpg',
+        link: 'https://www.lac.org.tw/'
+      },
+      {
+        title: 'CoLISP 2021',
+        subtitle: '國立臺灣大學圖書資訊學系主辦',
+        content: "<p class='lh-lg'>中華民國圖書館學會長期以來致力臺灣各類型圖書館的發展，推動圖書館界的各項活動，每年透過會員大會聚合圖書資訊學界、館界、業界的前輩與同儕，除了持續強化圖書資訊發展的網絡，匯集檢視該年度工作成果，並討論訂定下年度的工作規劃。</p>" +
+          "<p class='lh-lg'>2021年學會與眾多學術機構與圖書館商議，將會員大會擴展為兩天的學術與實務研討會，會議名稱定為「圖書資訊學術與實務研討會」（Conference of LIS and Practices, CoLISP），匯聚各界同仁，作為學界與館界展現研究與創新成果的發表場域，同時舉辨會員大會，目標是建構具有口碑與持續的年度盛會。今年適逢國立臺灣大學圖書資訊學系建系 60 週年慶，是以本屆大會將由國立臺灣大學圖書資訊學系與中華民國圖書館學會主辦，期望圖書資訊界的前輩、同儕、學者、專家踴躍參與。</p>",
+        bg: 'colisp2024/img/index-2.jpg',
+        link: 'https://sites.google.com/view/colisp2021'
+      },
+      {
+        title: 'CoLISP 2022',
+        subtitle: '國立臺灣師範大學圖書資訊學研究所主辦',
+        content: "<p class='lh-lg'>第二屆圖書資訊學術與實務研討會(2nd Conference of LIS and Practices, CoLISP 2022)將邀集國內外圖書館學與資訊科學、資訊科技之專家學者共襄盛舉，旨在搭建圖書資訊學者與專業者交流之平台，鼓勵與會者相互交流圖書資訊學研究與實務議題，提昇我國圖書資訊學相關領域學術研究與圖書館事業實務之發展。</p>",
+        bg: 'colisp2024/img/index-3.jpg',
+        link: 'https://colisp2022.conf.tw/site/page.aspx?pid=901&sid=1442&lang=cht'
+      },
+      {
+        title: 'CoLISP 2023',
+        subtitle: '國立政治大學圖書資訊與檔案學研究所主辦',
+        content: "<p class='lh-lg'>第三屆圖書資訊學術與實務研討會(3rd Conference of LIS and Practices, CoLISP 2023)將邀集國內外圖書館學與資訊科學、資訊科技之專家學者共襄盛舉，旨在搭建圖書資訊學者與專業者交流之平台，鼓勵與會者相互交流圖書資訊學研究與實務議題，提昇我國圖書資訊學相關領域學術研究與圖書館事業實務之發展。</p>",
+        bg: 'colisp2024/img/index-4.jpg',
+        link: 'https://colisp2023.nccu.edu.tw/'
+      },
+      {
+        title: 'CoLISP 2024',
+        subtitle: '中華民國圖書館學會、中華圖書資訊學教育學會、國立臺灣師範大學圖書資訊學研究所、國立政治大學圖書資訊與檔案學研究所主辦',
+        content: "<p class='lh-lg'>第四屆圖書資訊學術與實務研討會(4th Conference of LIS and Practices, CoLISP 2024)將邀集國內外圖書館學與資訊科學、資訊科技之專家學者共襄盛舉，旨在搭建圖書資訊學者與專業者交流之平台，鼓勵與會者相互交流圖書資訊學研究與實務議題，提昇我國圖書資訊學相關領域學術研究與圖書館事業實務之發展。</p>",
+        bg: 'colisp2024/img/index-5.jpg',
+        link: 'https://colisp.lac.org.tw/colisp2024/'
+      }
+    ];
+
+    function swapItemID(_itemID, arrow) {
+      let itemID = parseInt(_itemID);
+      let curItemID = 0;
+      if (itemID == 0) {
+        if (arrow == '-') {
+          curItemID = itemData.length - 1;
+        }
+        else if (arrow == '+') {
+          curItemID = itemID + 1;
+        }
+      }
+      else if (itemID == itemData.length - 1) {
+        if (arrow == '-') {
+          curItemID = itemID - 1;
+        }
+        else if (arrow == '+') {
+          curItemID = 0;
+        }
+      }
+      else {
+        if (arrow == '-') {
+          curItemID = itemID - 1;
+        }
+        else if (arrow == '+') {
+          curItemID = itemID + 1;
+        }
+      }
+      return curItemID;
+    }
+    function LoadItem(curItemID) {
+      $('#page-bg').css('background-image', "url('" + itemData[curItemID].bg + "'");
+      $('#item-title').html(itemData[curItemID].title);
+      $('#item-subtitle').html(itemData[curItemID].subtitle);
+      $('#item-content').empty().html(itemData[curItemID].content);
+      $('#item-link').attr('href', itemData[curItemID].link);
+    }
+
+    $(document).ready(function () {
+
+
+      $('#arrow-left').on('click', function (e) {
+        //更換ID
+        let itemID = $('#main-item').attr('data-item');
+        let curItemID = swapItemID(itemID, '-');
+        $('#main-item').attr('data-item', curItemID);
+        //載入資料
+        LoadItem(curItemID);
+      });
+      $('#arrow-right').on('click', function (e) {
+        //更換ID
+        let itemID = $('#main-item').attr('data-item');
+        let curItemID = swapItemID(itemID, '+');
+        $('#main-item').attr('data-item', curItemID);
+        //載入資料
+        LoadItem(curItemID);
+      });
+    });
+  </script>
 </body>
 
 </html>
