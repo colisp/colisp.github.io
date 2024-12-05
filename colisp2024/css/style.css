@@ -49,6 +49,7 @@ a:focus {
 }
 
 .content {	
+
 }
 
 .content section {
@@ -124,7 +125,7 @@ a:focus {
 a:active,
 a:focus {
     color: #ffffff;
-    //outline: none;
+    outline: none;
     outline-style: double;
     text-decoration: none;
 }
@@ -252,7 +253,7 @@ a:focus {
     
     .nav-bar a.nav-link {
         padding: 8px 15px;
-        font-size: 17px;//change size to fit
+        font-size: 17px; /* change size to fit */
         text-transform: uppercase;
     }
 }
@@ -1112,19 +1113,14 @@ h1, h2, h3 {
 /*********** firm CSS***********/
 /*******************************/
 
-/* 設置表格寬度為80% */
-.firm-table {
-    width: 80%;
-    margin: 0 auto; /* 將表格置中 */
-    border-collapse: collapse; /* 合併邊框 */
+#table-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* 圖片及下面文字置中 */
 .firm-table img {
     display: block;
     margin: 0 auto; /* 圖片置中 */
-}
-
-.firm-table p {
-    text-align: center; /* 文字置中 */
 }
