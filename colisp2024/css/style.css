@@ -1113,6 +1113,11 @@ h1, h2, h3 {
 /*********** firm CSS***********/
 /*******************************/
 
+.firm-table {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #table-content{
     display: flex;
     flex-direction: column;
