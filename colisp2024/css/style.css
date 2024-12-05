@@ -1108,7 +1108,23 @@ h1, h2, h3 {
     margin: 0 0 10px 0;
 }
 
+/*******************************/
+/*********** firm CSS***********/
+/*******************************/
 
+/* 設置表格寬度為80% */
+.firm-table {
+    width: 80%;
+    margin: 0 auto; /* 將表格置中 */
+    border-collapse: collapse; /* 合併邊框 */
+}
 
+/* 圖片及下面文字置中 */
+.firm-table img {
+    display: block;
+    margin: 0 auto; /* 圖片置中 */
+}
 
-
+.firm-table p {
+    text-align: center; /* 文字置中 */
+}
