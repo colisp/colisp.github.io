@@ -1124,8 +1124,12 @@ h1, h2, h3 {
     justify-content: center;
 }
 
-/* 圖片及下面文字置中 */
 .firm-table img {
     display: block;
     margin: 0 auto; /* 圖片置中 */
+}
+
+.firm-table td, 
+.firm-table th {
+    border: 1px solid black; /* 單元格內框線樣式 */
 }
