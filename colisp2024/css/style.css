@@ -1131,5 +1131,5 @@ h1, h2, h3 {
 
 .firm-table td, 
 .firm-table th {
-    border: 1px solid black; /* 單元格內框線樣式 */
+    border: 1px solid #d3d3d3; /* 單元格內框線樣式 */
 }
