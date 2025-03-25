@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024</title>
+  <meta charset="utf-8">
+  <meta name="description" content="COLISP2024: 4th Conference of LIS and Practices" />
+  <meta name="keywords"
+    content="第四屆圖書資訊學術與實務研討會－4th Conference of LIS and Practices,CoLISP 2024, COLISP2024: 4th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Libraries -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+  <link href="lib/slick/slick.css" rel="stylesheet">
+  <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- toast notify -->
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+  <link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" type="text/javascript">
+    /*
+    function getState(){
+          //do getdata 
+          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+          console.log(news_list);
+          for (var i = news_list.length-1; i >=0; i--) {
+            if (news_list[i].id=="stop"){
+              continue;
+            }
+            notify(news_list[i].innerHTML,"Info");
+          }
+        	
+         // setTimeout('getState();',1000); //100ms
+    }	
+    function notify(name,sdate) {
+        toastr.success(name,sdate,{positionClass: "toast-top-right"});
+        toastr.options.closeButton = false;
+        //toastr.options.closeMethod = 'fadeOut';
+        //toastr.options.closeDuration = 300;
+        //toastr.options.closeEasing = 'swing';
+        toastr.options.debug=false;
+  //    	toastr.options.newestOnTop=true;
+        toastr.options.progressBar=true;
+        //toastr.options.positionClass="toast-top-full-width";
+        //toastr.options.preventDuplicates=false;
+        toastr.options.onclick=null;
+        toastr.options.showDuration=500;
+        toastr.options.hideDuration=300;
+        toastr.options.timeOut=10000;
+        toastr.options.extendedTimeOut=1000;
+        toastr.options.showEasing="swing";
+        toastr.options.hideEasing="linear";
+        toastr.options.showMethod="fadeIn";
+        toastr.options.hideMethod="fadeOut";
+        toastr.options.closeMethod = "slideUp";
+    }*/
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Top Bar Start -->
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-12 d-flex align-items-center">
+            <div class="logo">
+              <a href="index.html">
+                <img src="/colisp2024/img/CoLISP_LOGO.png" alt="CoLISP 2024 Logo"
+                  style="width: 70px; height: auto; margin-right: 10px;">
+              </a>
+            </div>
+            <h1 style="display: inline; margin: 0;">CoLISP 2024</h1>
+          </div>
+          <div class="col-lg-8 col-md-7 d-none d-lg-block">
+            <div class="row" style="margin-left: 60px;">
+              <div class="col-4" style="margin-right: 90px;">
+                <div class="top-bar-item">
+                  <div class="top-bar-icon">
+                    <i class="flaticon-calendar"></i>
+                  </div>
+                  <div class="top-bar-text">
+                    <h3>Conference date</h3>
+                    <p>Dec. 13-14, 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="top-bar-item">
+                  <div class="top-bar-icon">
+                    <i class="flaticon-send-mail"></i>
+                  </div>
+                  <div class="top-bar-text">
+                    <h3>Email Us</h3>
+                    <p>clavenke@ntnu.edu.tw</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav-bar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav mr-auto">
+              <div class="nav-item dropdown">
+                <a href="index.html#welcome" class="nav-link">首頁</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="https://www.lac.org.tw/civicrm/event/register?id=314&reset=1" class="nav-link"
+                  target="_blank">會議報名</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="/colisp2024/organization.html" class="nav-link">會議組織</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議徵稿資訊</a>
+                <div class="dropdown-menu">
+                  <a href="index.html#cfp" class="dropdown-item">會議徵稿主題</a>
+                  <a href="index.html#type" class="dropdown-item">會議徵稿種類</a>
+                  <a href="index.html#submission" class="dropdown-item">稿件格式與提交</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議資訊</a>
+                <div class="dropdown-menu">
+                  <a href="/colisp2024/agenda.html" class="dropdown-item">會議議程</a>
+                  <a href="/colisp2024/keynotes.html" class="dropdown-item">專題演講</a>
+                  <a href="/colisp2024/forum.html" class="dropdown-item">實務論壇</a>
+                  <a href="/colisp2024/poster.html" class="dropdown-item">國科會研究成果海報展</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="https://easychair.org/account2/signin?l=6679768745752296730" class="nav-link"
+                  target="_blank">論文投稿</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="index.html#hotels" class="nav-link">會議場地</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="firm.html" class="nav-link">參展廠商</a>
+              </div> 
+            </div>
+            <div class="ml-auto">
+              <a class="btn" href="https://www.lac.org.tw/civicrm/event/register?id=314&reset=1"
+                target="_blank">會議報名</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+    <div class="content" id="content">
+      <div class="wrapper">
+        <div class="header">
+          <h1 class="logo-name">
+            <a class="logo-link" href="#welcome" title="" itemprop="name"></a><!-- don't show banner word-->
+          </h1>
+        </div>
+
+        <!-- poster -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>國科會研究成果海報展</h2>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        
+        <div class="poster-container">
+          <div class="container">
+            <div class="gray-bar"></div>
+            <div class="content">
+              <ul class="agenda-square-list">
+                <li>海報相關規定請看下列文件：</li>
+                <li>
+                  <a title="國科會成果海報展" target="_blank" href="/colisp2024/pdf/poster.pdf" rel="noopener">國科會成果海報展注意事項</a>
+                  <a href="/colisp2024/pdf/poster.pdf" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M11 3.99994H4V17.9999C4 19.1045 4.89543 19.9999 6 19.9999H18C19.1046 19.9999 20 19.1045 20 17.9999V12.9999"
+                          stroke="#292929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9 14.9999L20 3.99994" stroke="#292929" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M15 3.99994H20V8.99994" stroke="#292929" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="24" height="24" fill="black" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="divider">
+          <div class="table-title">成果展場次一 (10:30-12:00)</div>
+          <table class="poster">
+            <thead>
+              <tr>
+                <th>海報展編號</th>
+                <th>計畫主持人</th>
+                <th>計畫中文名稱</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>陳昭珍</td>
+                <td>台灣公共圖書館網路意見與點評之比較分析及其社會網絡之探討</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>邱銘心</td>
+                <td>您的隱私、我的好孕：不孕症病友支持論壇中試管嬰兒討論之自我揭露行為探討</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>鄭瑋</td>
+                <td>邁向研究資料基礎建設：資料共享實務與資料之學術影響力探索</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>邱子恒</td>
+                <td>學術型醫學圖書館研究支持服務（RSS）之研究</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>徐明珠</td>
+                <td>邁向未來出版：以大數據分析結合設計思考建構資料吸收能力、資料洞見與出版產業創新之模式—以資料驅動文化為干擾變項</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>林麗娟</td>
+                <td>大學生由社群媒體接收Covid -19傳染病錯誤訊息之資訊行為分析</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>蘇小鳳</td>
+                <td>永續支持開放式教科書：探究關係人之認知、運用與創作及其關係鏈</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>陳光華</td>
+                <td>應用嵌入式方法於引用文獻分析之數學性質與模型設定</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>唐牧群</td>
+                <td>音樂發掘策略與峰終效應對於使用者評估播放清單的影響</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>唐牧群</td>
+                <td>探討Spotify使用者心理屬性對不同推薦策略滿意度的影響</td>
+              </tr>
+            </tbody>
+
+          </table>
+          <br>
+          <hr class="divider">
+          <div class="table-title">成果展場次二 (13:30-15:00)</div>
+          <table class="poster">
+            <thead>
+              <tr>
+                <th>海報展編號</th>
+                <th>計畫主持人</th>
+                <th>計畫中文名稱</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>杜海倫</td>
+                <td>基於人工智慧技術的圖書館主題編目輔助系統</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>宋慧筠</td>
+                <td>數位時代下的公共圖書館支持早期學習與家庭參與之角色探究</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>鄭有容</td>
+                <td>從「無緣社會」到「結緣社會」－運用資訊場理論檢視社會支持網絡對於中高齡東南亞籍移民健康資訊尋求行為之影響</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>陳舜德</td>
+                <td>以錯誤學習模型建構語音辨識系統錯誤偵測及修正</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>陳淑君</td>
+                <td>數位人文學的論證知識本體研究：以簡牘的釋讀及復原為例</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>林信成</td>
+                <td>大淡水地方學資料之數位庋用與策展</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>董蕙茹</td>
+                <td>從早期出版的角度探討文獻特性、外部因素、以及引文特性對文獻老化評估的影響</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>張嘉玲</td>
+                <td>基於深度學習的早期學術文章影響力研究</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>洪振洲</td>
+                <td>以深度學習模型與資料擴增技術擷取佛學論文中之大藏經引用資訊之研究</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>黃慕萱</td>
+                <td>論文計次方法及自我引用對不同層級學術評鑑之影響探討</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>蔡明月</td>
+                <td>異質性平台鏈結資料共享服務之建置研究</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br>
+          <hr class="divider">
+          <div class="table-title">成果展場次三 (15:20-16:50)</div>
+          <table class="poster">
+            <thead>
+              <tr>
+                <th>海報展編號</th>
+                <th>計畫主持人</th>
+                <th>計畫中文名稱</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>張郁蔚</td>
+                <td>數位學術傳播時代之期刊引用指標與領域特性關係之探討</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>林巧敏</td>
+                <td>支援數位人文研究之檔案檢索系統功能及其易用性評估</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>林雯瑤</td>
+                <td>臺灣學術期刊的開放取用之變革</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>蔡天怡</td>
+                <td>第一代大學生之大學適應及其學習情境資訊經驗探究</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>柯皓仁</td>
+                <td>臺灣公共圖書館對聯合國永續發展目標的認知與實踐</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>林奇秀</td>
+                <td>史學研究者之檔案知能與資訊行為</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>陳亞寧</td>
+                <td>從應用特徵檔探討書目框架應用在鏈結資料的樣態分析</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>陳亞寧</td>
+                <td>FAIR型鏈結資料著錄規範之可行性研究</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>陳世娟</td>
+                <td>大學生使用圖書館資源探索系統之研究</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>陳世娟</td>
+                <td>研究生對圖書館資源探索系統和Google Scholar的認知及使用行為研究</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+
+
+
+
+
+        <hr style="border: 1px solid #030f27; margin-top: 50px; margin-bottom: 10px;" />
+
+        <footer class="footer">
+          <!-- Hosted -->
+          <section class="Hosted" id="Hosted">
+            <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+              <h2>主辦單位</h2>
+            </div>
+            <div class="image-container"
+              style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;">
+              <div style="flex: 0 0 45%; margin: 10px;">
+                <img src="/colisp2024/img/LAROC_logo.png" alt="Image 1" style="max-width: 100%; height: auto;" />
+                <p style="font-size: 24px; text-align: center;">中華民國圖書館學會</p>
+              </div>
+              <div style="flex: 0 0 45%; margin: 10px;">
+                <img src="/colisp2024/img/CALISE_logo.png" alt="Image 2" style="max-width: 100%; height: auto;" />
+                <p style="font-size: 24px; text-align: center;">中華圖書資訊學教育學會</p>
+              </div>
+              <div style="margin: 10px; text-align: center;">
+               <img src="/colisp2024/img/NCL_logo_.png" alt="Image 5"style="max-width: 70%; height: auto;" />
+               <p style="font-size: 24px;">國家圖書館</p>
+              </div>
+              <div style="flex: 0 0 45%; margin: 10px;">
+                <img src="/colisp2024/img/NTNU_logo.png" alt="Image 3" style="height: 100px; width: auto;" />
+                <p style="font-size: 24px; text-align: center;">國立臺灣師範大學圖書資訊學研究所</p>
+              </div>
+              <div style="flex: 0 0 45%; margin: 10px;">
+                <img src="/colisp2024/img/NCCU_logo.jpg" alt="Image 4" style="height: 100px; width: auto;" />
+                <p style="font-size: 24px; text-align: center;">國立政治大學圖書資訊與檔案學研究所</p><br>
+              </div>
+              <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+                <h2>協辦單位</h2>
+              </div>
+              <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+                <div style="margin: 10px; text-align: center;">
+                  <img src="/colisp2024/img/NSTC_LOGO.png" alt="Image 6" style="max-width: 70%; height: auto;" />
+                  <p style="font-size: 24px;">國家科學及技術委員會</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </footer>
+
+
+
+        <!-- JavaScript Libraries -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
