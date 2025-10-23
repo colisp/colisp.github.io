@@ -1133,3 +1133,104 @@ h1, h2, h3 {
 .firm-table th {
     border: 1px solid #d3d3d3; /* 單元格內框線樣式 */
 }
+
+/*******************************/
+/*********** admit CSS *********/
+/*******************************/
+
+.admit-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.admit-container .title {
+    text-align: center;
+    color: #030f27;	
+    padding: 20px;
+    font-size: 48px;
+    margin: 0;
+}
+
+.admit-container .divider {
+    border: none;
+    border-top: 2px solid #ddd;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.admit-container .table-title {
+    text-align: center;
+    font-size: 36px;	
+    font-size: 1.3em;
+    color: #030f27;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.admit-container .poster {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admit-container .poster th {
+    background-color: #030f27;
+    color: #fdbe33;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.admit-container .poster td {
+    border-top: 1px solid #ddd; /* 添加淺灰色分隔線 */
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.admit-container .poster tr {
+    background-color: #ffffff; 
+}
+
+
+/* 設定「作者」欄位的寬度 */
+.admit-container .poster th:nth-child(2),
+.admit-container .poster td:nth-child(2) {
+    width: 17%;
+}
+
+.admit-container a {
+    color: #030F27;
+    text-decoration: none;
+}
+
+.admit-container a:hover {
+    color: #555555;
+}
+
+.admit-container a:visited {
+    color: #555555;
+}
+
+.admit .container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.admit .gray-bar {
+    width: 5px;
+    height: 100%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.admit .content {
+    line-height: 1.5;
+}
+
+.admit .content h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
