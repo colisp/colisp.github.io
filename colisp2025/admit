@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>第五屆圖書資訊學術與實務研討會－5th Conference of LIS and Practices,CoLISP 2025</title>
+  <meta charset="utf-8">
+  <meta name="description" content="COLISP2025: 5th Conference of LIS and Practices" />
+  <meta name="keywords"
+    content="第五屆圖書資訊學術與實務研討會－5th Conference of LIS and Practices,CoLISP 2025, COLISP2025: 5th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Libraries -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+  <link href="lib/slick/slick.css" rel="stylesheet">
+  <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- toast notify -->
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+  <link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" type="text/javascript">
+    /*
+    function getState(){
+          //do getdata 
+          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+          console.log(news_list);
+          for (var i = news_list.length-1; i >=0; i--) {
+            if (news_list[i].id=="stop"){
+              continue;
+            }
+            notify(news_list[i].innerHTML,"Info");
+          }
+        	
+         // setTimeout('getState();',1000); //100ms
+    }	
+    function notify(name,sdate) {
+        toastr.success(name,sdate,{positionClass: "toast-top-right"});
+        toastr.options.closeButton = false;
+        //toastr.options.closeMethod = 'fadeOut';
+        //toastr.options.closeDuration = 300;
+        //toastr.options.closeEasing = 'swing';
+        toastr.options.debug=false;
+  //    	toastr.options.newestOnTop=true;
+        toastr.options.progressBar=true;
+        //toastr.options.positionClass="toast-top-full-width";
+        //toastr.options.preventDuplicates=false;
+        toastr.options.onclick=null;
+        toastr.options.showDuration=500;
+        toastr.options.hideDuration=300;
+        toastr.options.timeOut=10000;
+        toastr.options.extendedTimeOut=1000;
+        toastr.options.showEasing="swing";
+        toastr.options.hideEasing="linear";
+        toastr.options.showMethod="fadeIn";
+        toastr.options.hideMethod="fadeOut";
+        toastr.options.closeMethod = "slideUp";
+    }*/
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Top Bar Start -->
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-12 d-flex align-items-center">
+            <div class="logo">
+              <a href="index.html">
+                <img src="/colisp2025/img/CoLISP_LOGO.png" alt="CoLISP 2025 Logo"
+                  style="width: 70px; height: auto; margin-right: 10px;">
+              </a>
+            </div>
+            <h1 style="display: inline; margin: 0;">CoLISP 2025</h1>
+          </div>
+          <div class="col-lg-8 col-md-7 d-none d-lg-block">
+            <div class="row" style="margin-left: 60px;">
+              <div class="col-4" style="margin-right: 90px;">
+                <div class="top-bar-item">
+                  <div class="top-bar-icon">
+                    <i class="flaticon-calendar"></i>
+                  </div>
+                  <div class="top-bar-text">
+                    <h3>Conference date</h3>
+                    <p>Nov. 21-22, 2025</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="top-bar-item">
+                  <div class="top-bar-icon">
+                    <i class="flaticon-send-mail"></i>
+                  </div>
+                  <div class="top-bar-text">
+                    <h3>Email Us</h3>
+                    <p>clavenke@ntnu.edu.tw</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav-bar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
