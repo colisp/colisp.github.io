@@ -1138,6 +1138,14 @@ h1, h2, h3 {
 /*********** admit CSS *********/
 /*******************************/
 
+.admit-container .section-header h2 {
+    text-align: center;
+    margin: 20px 0;     
+    color: #030f27;     
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .admit-container {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -1234,6 +1242,7 @@ h1, h2, h3 {
     font-size: 18px;
     margin: 0 0 10px 0;
 }
+
 
 
 
