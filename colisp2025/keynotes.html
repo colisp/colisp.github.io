@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>第五屆圖書資訊學術與實務研討會－5th Conference of LIS and Practices,CoLISP 2025</title>
@@ -8,78 +9,81 @@
   <meta name="keywords"
     content="第五屆圖書資訊學術與實務研討會－5th Conference of LIS and Practices,CoLISP 2025, COLISP2025: 5th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries" />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
-        <link href="lib/slick/slick.css" rel="stylesheet">
-        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <!-- CSS Libraries -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+  <link href="lib/slick/slick.css" rel="stylesheet">
+  <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-        
-        <!-- toast notify -->
-				<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
-				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
-				<script language="javascript" type="text/javascript">
-					/*
-					function getState(){
-			          //do getdata 
-			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
-			          console.log(news_list);
-			          for (var i = news_list.length-1; i >=0; i--) {
-			          	if (news_list[i].id=="stop"){
-			          		continue;
-			          	}
-                	notify(news_list[i].innerHTML,"Info");
-            		}
-								
-			         // setTimeout('getState();',1000); //100ms
-					}	
-				  function notify(name,sdate) {
-				    	toastr.success(name,sdate,{positionClass: "toast-top-right"});
-				    	toastr.options.closeButton = false;
-				    	//toastr.options.closeMethod = 'fadeOut';
-				    	//toastr.options.closeDuration = 300;
-				    	//toastr.options.closeEasing = 'swing';
-				    	toastr.options.debug=false;
-				//    	toastr.options.newestOnTop=true;
-				    	toastr.options.progressBar=true;
-				    	//toastr.options.positionClass="toast-top-full-width";
-				    	//toastr.options.preventDuplicates=false;
-				    	toastr.options.onclick=null;
-				    	toastr.options.showDuration=500;
-				    	toastr.options.hideDuration=300;
-				    	toastr.options.timeOut=10000;
-				    	toastr.options.extendedTimeOut=1000;
-				    	toastr.options.showEasing="swing";
-				    	toastr.options.hideEasing="linear";
-				    	toastr.options.showMethod="fadeIn";
-				    	toastr.options.hideMethod="fadeOut";
-				    	toastr.options.closeMethod = "slideUp";
-				  }*/
-				</script>   
 
- 	<style>
- 	   html {
-   	   scroll-behavior: smooth;
-  	   }
- 	</style>
-    </head>
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <body>
-    <div class="wrapper">
-     <!-- Top Bar Start -->
+  <!-- toast notify -->
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+  <link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" type="text/javascript">
+    /*
+    function getState(){
+          //do getdata 
+          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+          console.log(news_list);
+          for (var i = news_list.length-1; i >=0; i--) {
+            if (news_list[i].id=="stop"){
+              continue;
+            }
+            notify(news_list[i].innerHTML,"Info");
+          }
+        	
+         // setTimeout('getState();',1000); //100ms
+    }	
+    function notify(name,sdate) {
+        toastr.success(name,sdate,{positionClass: "toast-top-right"});
+        toastr.options.closeButton = false;
+        //toastr.options.closeMethod = 'fadeOut';
+        //toastr.options.closeDuration = 300;
+        //toastr.options.closeEasing = 'swing';
+        toastr.options.debug=false;
+  //    	toastr.options.newestOnTop=true;
+        toastr.options.progressBar=true;
+        //toastr.options.positionClass="toast-top-full-width";
+        //toastr.options.preventDuplicates=false;
+        toastr.options.onclick=null;
+        toastr.options.showDuration=500;
+        toastr.options.hideDuration=300;
+        toastr.options.timeOut=10000;
+        toastr.options.extendedTimeOut=1000;
+        toastr.options.showEasing="swing";
+        toastr.options.hideEasing="linear";
+        toastr.options.showMethod="fadeIn";
+        toastr.options.hideMethod="fadeOut";
+        toastr.options.closeMethod = "slideUp";
+    }*/
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Top Bar Start -->
     <div class="top-bar">
       <div class="container-fluid">
         <div class="row align-items-center">
@@ -156,6 +160,7 @@
                 <div class="dropdown-menu">
                   <a href="index.html#welcome" class="dropdown-item">會議議程</a>
                   <a href="index.html#welcome" class="dropdown-item">專題演講</a>
+                  <a href="admit.html" class="dropdown-item">論文錄取名單</a>
                   <a href="index.html#welcome" class="dropdown-item">實務論壇</a>
                   <a href="index.html#welcome" class="dropdown-item">國科會研究成果海報展</a>
                 </div>
@@ -164,7 +169,7 @@
                 <a href="https://easychair.org/conferences/?conf=colisp2025" class="nav-link" target="_blank">論文投稿</a>
               </div>
               <div class="nav-item dropdown">
-                <a href="index.html#welcome" class="nav-link">會議場地</a>
+                <a href="index.html#hotels" class="nav-link">會議場地</a>
               </div>
               <div class="nav-item dropdown">
                 <a href="index.html#welcome" class="nav-link">參展廠商</a>
@@ -177,7 +182,7 @@
         </nav>
       </div>
     </div>
-    <!-- Nav Bar End --> 
+    <!-- Nav Bar End -->
 	    
     <div class="content" id="content">
     	            <!-- Page Header Start -->
@@ -201,14 +206,14 @@
                     <section id="keynote1"class="row align-items-center">
                         <div class="col-lg-5 col-md-6">
                             <div class="about-img">
-                                <img src="img/chencm.jpg" alt="Image">
+                                <img src="img/Profile_pic_keynote1.png" alt="Image">
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-6">
                             <div class="section-header text-left">
                                 <p id="keynote1">Keynote 1</p>
-                                <h3>陳志銘教授 - <br>AI賦能之圖書館創新服務發展與未來挑戰</h3>
-                                <a href="/colisp2024/pdf/AI賦能之圖書館創新服務發展與未來挑戰.pdf" target="_blank" rel="noopener noreferrer">
+                                <h3>Michael Lambert - <br>Vision 2030: A Democratic, Equitable, & Vibrant San Francisco for Everyone</h3>
+                                <a href="" target="_blank" rel="noopener noreferrer">
                                      <svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                            <path d="M10.5 14.5H10C10 14.7022 10.1218 14.8845 10.3087 14.9619C10.4955 15.0393 10.7106 14.9966 10.8536 14.8536L10.5 14.5ZM10.5 10.5V10C10.2239 10 10 10.2239 10 10.5H10.5ZM14.5 10.5L14.8536 10.8536C14.9966 10.7106 15.0393 10.4955 14.9619 10.3087C14.8845 10.1218 14.7022 10 14.5 10V10.5ZM1.5 1H13.5V0H1.5V1ZM1 13.5V1.5H0V13.5H1ZM14 1.5V10.0858H15V1.5H14ZM10.0858 14H1.5V15H10.0858V14ZM13.8536 10.4393L10.4393 13.8536L11.1464 14.5607L14.5607 11.1464L13.8536 10.4393ZM10.0858 15C10.4836 15 10.8651 14.842 11.1464 14.5607L10.4393 13.8536C10.3456 13.9473 10.2184 14 10.0858 14V15ZM14 10.0858C14 10.2184 13.9473 10.3456 13.8536 10.4393L14.5607 11.1464C14.842 10.8651 15 10.4836 15 10.0858H14ZM0 13.5C0 14.3284 0.671573 15 1.5 15V14C1.22386 14 1 13.7761 1 13.5H0ZM13.5 1C13.7761 1 14 1.22386 14 1.5H15C15 0.671573 14.3284 0 13.5 0V1ZM1.5 0C0.671573 0 0 0.671574 0 1.5H1C1 1.22386 1.22386 1 1.5 1V0ZM11 14.5V10.5H10V14.5H11ZM10.5 11H14.5V10H10.5V11ZM14.1464 10.1464L10.1464 14.1464L10.8536 14.8536L14.8536 10.8536L14.1464 10.1464ZM3 4H12V3H3V4Z" fill="black"/>
                                      </svg>
@@ -216,13 +221,13 @@
                             </div>
                             <div class="about-text">
                                 <b>任職單位</b>:<br/>
-																• 國立政治大學圖書資訊與檔案學研究所特聘教授<br/>
-				    												• 國立政治大學圖書資訊與檔案學研究所所長<br/>
-				    												• 國立政治大學華人文化元宇宙研究中心主任<br><br/>
+																• San Francisco Public Library City Librarian<br/>
+
 																<b>主講人介紹:</b><br/>
-																陳志銘目前為國立政治大學圖書資訊與檔案研究所特聘教授兼圖書資訊與檔案學研究所所長、華人文化元宇宙研究中心主任，過去曾擔任國立政治大學圖書館館長、社會科學資料中心主任、中華圖書資訊學教育學會理事長等行政工作職務，致力於圖書館智慧服務與創新學習，以及數位人文平台的發展。目前擔任Computers & Education: Artificial Intelligence國際期刊編輯委員，也曾擔任圖資與檔案學刊主編，過去曾獲得國科會吳大先生紀念獎、科技部研究獎勵、政大學術研究特優獎、政大學術研究優良獎等學術榮譽，且自2020至今已連續五年榮獲史丹福大學全球前2%頂尖科學家(終身)及前2%頂尖科學家(年度)殊榮，合計目前已發表超過100篇以上SSCI及SCI國際期刊論文，主要研究專長包括元宇宙數位策展與數位人文、AI虛擬人設計與應用、擴增與混合實境設計與應用、人工智慧與資料探勘應用、數位學習研究、計算檔案學<br/><br/>
 																<b>演講摘要:</b><br/>
-																身處於人工智慧快速發展的時代，圖書館正面臨創新服務發展的機會與挑戰。本演講將探討生成式AI在文字、圖像、聲音、影片及3D模型生成等技術上的發展，如何促進圖書館服務的變革，將圖書館打造為具有AI賦能的創新服務場域，能夠提升圖書館的服務品質與效能。演講將重點分析如何打造具有與讀者互動，提升數位策展、閱讀推廣，以及讀者參考諮詢等服務之具效能且可信賴的AI虛擬館員，以及探討生成式AI在促進數位人文研究上的發展潛力。然而，這些創新同時也帶來了許多的挑戰，例如數據隱私問題、館員職能提升，以及使用者接受度等。透過深入探討，本演講將展望未來圖書館如何應對這些挑戰，持續滿足讀者需求，實現服務的創新與升級。<p/>
+																<b>San Francisco Public Library (SFPL) is one of the premier urban libraries in North America. A nationally recognized leader in the industry, SFPL recently developed a new strategic plan to achieve greater customer focus in centering community needs. Traditional library services are being bolstered by new strategic priorities to celebrate the culture and diversity of the community, while fostering shared experiences to bring our residents together in a way only possible through the most egalitarian of institutions.</b><br/>
+								                                <b>SFPL is on the vanguard of taking more entrepreneurial approaches to service delivery with organizational shifts to proactively connect with our patrons while infusing the spirit of San Francisco into library programs and services. As the highest rated department of municipal government, the library is a model for effective stewardship of the community’s resources, delivering strong return on investment.</b><br/>
+                                                                <b>City Librarian Michael Lambert, the first Asian American to lead the institution, will share how SFPL is being intentional in the organization’s evolution of mission and vision in order to help residents, attain their goals for a brighter future and live their best lives.</b><br>
                             </div>
                         </div>  
 										</section>
@@ -245,11 +250,11 @@
                             </div>
                             <div class="about-text">
                                 <b>任職單位</b>:<br/>
-																• 國立臺灣大學資訊管理學系及工商管理學系兼任助理教授<br/>
-				    												• 意藍資訊公司創辦人及總經理<br><br/>
-																<b>主講人介紹:</b><br/>
-																楊立偉為國立臺灣大學資訊管理學博士。國立現任臺灣大學資訊管理學系及工商管理學系兼任助理教授、資訊及通信國家標準技術委員、意藍資訊創辦人及總經理。任教於臺灣大學超過18年，為臺大教學傑出教師，每年學生超過300位。曾榮獲國家雲端創新獎、數位時代「創業之星」首獎、100MVP最有價值經理人，以及數位時代雜誌選為代表臺灣軟體的封面人物之一。 楊立偉博士的研究專長領域為資料庫及資訊管理、搜尋引擎、機器學習及語意分析、大數據及商業分析等，擁有近30項數據及語意分析專利。所帶領之eLAND意藍資訊團隊為首家掛牌的智能數據公司(股票代號 6925)，曾併購國內最大的搜尋引擎廠商龍捲風科技，自主研發搜尋、語意分析、數據處理等核心技術，其主力產品OpView為臺灣最具規模的網路聲量及輿情分析平台，每日分析處理超過60億個字，主要客戶包括高科技、金融、零售等產業之龍頭企業及政府單位，擁有極高之市場覆蓋率。意藍所推出的「新一代生成式AI知識管理系統」並在今年國科會所舉辦之首屆GenAI Stars競賽中，在260多個團隊中獲選為第二名，為百工百業運用AI的最佳典範。<br/><br/>
-																<b>演講摘要:</b><br/>
+																• 國立臺灣大學資訊管理學系及工商管理學系兼任助理教授<br>
+				    												• 意藍資訊公司創辦人及總經理<br><br>
+																<b>主講人介紹:</b><br>
+																楊立偉為國立臺灣大學資訊管理學博士。國立現任臺灣大學資訊管理學系及工商管理學系兼任助理教授、資訊及通信國家標準技術委員、意藍資訊創辦人及總經理。任教於臺灣大學超過18年，為臺大教學傑出教師，每年學生超過300位。曾榮獲國家雲端創新獎、數位時代「創業之星」首獎、100MVP最有價值經理人，以及數位時代雜誌選為代表臺灣軟體的封面人物之一。 楊立偉博士的研究專長領域為資料庫及資訊管理、搜尋引擎、機器學習及語意分析、大數據及商業分析等，擁有近30項數據及語意分析專利。所帶領之eLAND意藍資訊團隊為首家掛牌的智能數據公司(股票代號 6925)，曾併購國內最大的搜尋引擎廠商龍捲風科技，自主研發搜尋、語意分析、數據處理等核心技術，其主力產品OpView為臺灣最具規模的網路聲量及輿情分析平台，每日分析處理超過60億個字，主要客戶包括高科技、金融、零售等產業之龍頭企業及政府單位，擁有極高之市場覆蓋率。意藍所推出的「新一代生成式AI知識管理系統」並在今年國科會所舉辦之首屆GenAI Stars競賽中，在260多個團隊中獲選為第二名，為百工百業運用AI的最佳典範。<br><br>
+																<b>演講摘要:</b><br>
 																本場內容將介紹了生成式 AI 的應用與發展，說明生成式 AI 的重要性、基本原理、以及在不同領域的應用場景，探討其優缺點和未來發展趨勢，同時也展示了生成式 AI 在知識管理方面的應用案例，以及如何透過 AI 提升知識管理效率，進一步創造價值。最後，簡報探討了生成式 AI 在圖書資訊領域的發展機會，例如如何將資料轉化為知識，並與 AI 協作，以創造更多價值。 <p/>
                             </div>
                         </div>                        
@@ -321,6 +326,7 @@
         <script src="js/main.js"></script>  
  </body>
 </html>
+
 
 
 
