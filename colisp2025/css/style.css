@@ -1249,8 +1249,9 @@ h1, h2, h3 {
 
 .two-rows {
   display: grid;
-  grid-template-rows: 1fr 1fr; 
-  gap: 10px; /* 間距 */
+  grid-template-rows: 1fr 1fr; /* 兩列平均分 */
+  gap: 10px;
+  height: 200px; /* 總高度 */
   vertical-align: top;
   text-align: left;
   background-color: white;
