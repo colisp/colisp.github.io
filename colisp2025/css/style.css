@@ -1249,13 +1249,24 @@ h1, h2, h3 {
 
 .two-rows {
   display: grid;
-  grid-template-rows: 1fr 1fr; /* 兩列平均分 */
-  gap: 10px;
-  height: 500px; /* 總高度 */
-  vertical-align: top;
-  text-align: left;
+  grid-template-rows: 1fr 1fr;     /* 上下兩區 */
+  gap: 10px;                       /* 兩區之間留白 */
   background-color: white;
+  padding: 10px;
 }
+
+.two-rows > div {
+  /* 讓每一半內容本身往上貼，而不是被平均置中 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.two-rows hr {
+  border: 1px solid #030f27;
+  margin-top: 5px;
+}
+
 
 
 
