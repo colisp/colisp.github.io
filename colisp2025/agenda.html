@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>第五屆圖書資訊學術與實務研討會－5th Conference of LIS and Practices,CoLISP 2025</title>
@@ -8,77 +9,80 @@
   <meta name="keywords"
     content="第五屆圖書資訊學術與實務研討會－5th Conference of LIS and Practices,CoLISP 2025, COLISP2025: 5th Conference of LIS and Practices, Information Technologies, Data Science &amp; Applications, Knowledge discovery,digital library,Semantic Web, linked data,metadata technologies,Cultural Information,Digital Humanities,Community Informatics,Access and usage of Web Archives,Data analytics for social networks,Intellectual property issues,Information behavior analysis with digital libraries" />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
-        <link href="lib/slick/slick.css" rel="stylesheet">
-        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <!-- CSS Libraries -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">-->
+  <link href="lib/slick/slick.css" rel="stylesheet">
+  <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-        
-        <!-- toast notify -->
-				<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-				<script type="text/javascript" src="js/toaster/toastr.min.js"></script>
-				<link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
-				<script language="javascript" type="text/javascript">
-					/*
-					function getState(){
-			          //do getdata 
-			          var news_list=document.getElementById('news_list').getElementsByTagName('li');
-			          console.log(news_list);
-			          for (var i = news_list.length-1; i >=0; i--) {
-			          	if (news_list[i].id=="stop"){
-			          		continue;
-			          	}
-                	notify(news_list[i].innerHTML,"Info");
-            		}
-								
-			         // setTimeout('getState();',1000); //100ms
-					}	
-				  function notify(name,sdate) {
-				    	toastr.success(name,sdate,{positionClass: "toast-top-right"});
-				    	toastr.options.closeButton = false;
-				    	//toastr.options.closeMethod = 'fadeOut';
-				    	//toastr.options.closeDuration = 300;
-				    	//toastr.options.closeEasing = 'swing';
-				    	toastr.options.debug=false;
-				//    	toastr.options.newestOnTop=true;
-				    	toastr.options.progressBar=true;
-				    	//toastr.options.positionClass="toast-top-full-width";
-				    	//toastr.options.preventDuplicates=false;
-				    	toastr.options.onclick=null;
-				    	toastr.options.showDuration=500;
-				    	toastr.options.hideDuration=300;
-				    	toastr.options.timeOut=10000;
-				    	toastr.options.extendedTimeOut=1000;
-				    	toastr.options.showEasing="swing";
-				    	toastr.options.hideEasing="linear";
-				    	toastr.options.showMethod="fadeIn";
-				    	toastr.options.hideMethod="fadeOut";
-				    	toastr.options.closeMethod = "slideUp";
-				  }*/
-				</script>   
 
- 	<style>
- 	   html {
-   	   scroll-behavior: smooth;
-  	   }
- 	</style>
-    </head>
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <body>
-    <div class="wrapper">
+  <!-- toast notify -->
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/toaster/toastr.min.js"></script>
+  <link href="js/toaster/toastr.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" type="text/javascript">
+    /*
+    function getState(){
+          //do getdata 
+          var news_list=document.getElementById('news_list').getElementsByTagName('li');
+          console.log(news_list);
+          for (var i = news_list.length-1; i >=0; i--) {
+            if (news_list[i].id=="stop"){
+              continue;
+            }
+            notify(news_list[i].innerHTML,"Info");
+          }
+        	
+         // setTimeout('getState();',1000); //100ms
+    }	
+    function notify(name,sdate) {
+        toastr.success(name,sdate,{positionClass: "toast-top-right"});
+        toastr.options.closeButton = false;
+        //toastr.options.closeMethod = 'fadeOut';
+        //toastr.options.closeDuration = 300;
+        //toastr.options.closeEasing = 'swing';
+        toastr.options.debug=false;
+  //    	toastr.options.newestOnTop=true;
+        toastr.options.progressBar=true;
+        //toastr.options.positionClass="toast-top-full-width";
+        //toastr.options.preventDuplicates=false;
+        toastr.options.onclick=null;
+        toastr.options.showDuration=500;
+        toastr.options.hideDuration=300;
+        toastr.options.timeOut=10000;
+        toastr.options.extendedTimeOut=1000;
+        toastr.options.showEasing="swing";
+        toastr.options.hideEasing="linear";
+        toastr.options.showMethod="fadeIn";
+        toastr.options.hideMethod="fadeOut";
+        toastr.options.closeMethod = "slideUp";
+    }*/
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
     <!-- Top Bar Start -->
     <div class="top-bar">
       <div class="container-fluid">
@@ -123,61 +127,62 @@
     </div>
     <!-- Top Bar End -->
 
-            <!-- Nav Bar Start -->
-            <div class="nav-bar">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">MENU</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+    <!-- Nav Bar Start -->
+    <div class="nav-bar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav mr-auto">
-			        <div class="nav-item dropdown">
-                                   <a href="index.html#welcome" class="nav-link">首頁</a>
-			        </div>   
-                                <div class="nav-item dropdown">
-                                    <a href="https://www.lac.org.tw/civicrm/event/info?reset=1&id=333&fbclid=IwY2xjawNeb6VleHRuA2FlbQIxMABicmlkETF4OGFTWmVTMHhLaUpDOGx3AR6q6xsBPZu-OjIhsusvEmBL0Ci89hCj36RqXlxY9-15IkdUd_UHBhtIuWm5zg_aem__0tarJo_vpHy5iiSkS1X1A" class="nav-link" target="_blank">會議報名</a>
-                                </div>
-                                <div class="nav-item dropdown">
-                                    <a href="/colisp2024/organization.html" class="nav-link">會議組織</a>
-                                </div>	
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議徵稿資訊</a>
-                                    <div class="dropdown-menu">
-                                        <a href="index.html#cfp" class="dropdown-item">會議徵稿主題</a>
-					<a href="index.html#type" class="dropdown-item">會議徵稿種類</a>	
-					<a href="index.html#submission" class="dropdown-item">稿件格式與提交</a>	
-                                    </div>
-                                </div> 
-				<div class="nav-item dropdown">
-			            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議資訊</a>
-				    <div class="dropdown-menu">
-                                        <a href="/colisp2024/agenda.html" class="dropdown-item">會議議程</a>
-					<a href="/colisp2024/keynotes.html" class="dropdown-item">專題演講</a>		
-					<a href="/colisp2024/forum.html" class="dropdown-item">實務論壇</a>	
-					<a href="/colisp2024/poster.html" class="dropdown-item">國科會研究成果海報展</a>
-				    </div>
-				</div> 
-				<div class="nav-item dropdown">
-                                    <a href="https://easychair.org/account2/signin?l=6679768745752296730" class="nav-link" target="_blank">論文投稿</a>
-                                </div>
- 				<div class="nav-item dropdown">
-                                    <a href="index.html#hotels" class="nav-link">會議場地</a>
-                                </div>
-                                <div class="nav-item dropdown">
-                                     <a href="firm.html" class="nav-link">參展廠商</a>
-                                </div>
-                            </div>
-                            <div class="ml-auto">                            		
-                                <a class="btn" href="https://www.lac.org.tw/civicrm/event/info?reset=1&id=333&fbclid=IwY2xjawNeb6VleHRuA2FlbQIxMABicmlkETF4OGFTWmVTMHhLaUpDOGx3AR6q6xsBPZu-OjIhsusvEmBL0Ci89hCj36RqXlxY9-15IkdUd_UHBhtIuWm5zg_aem__0tarJo_vpHy5iiSkS1X1A" target="_blank">會議報名</a>
-                            </div>                            
-                        </div>                        
-                    </nav>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav mr-auto">
+              <div class="nav-item dropdown">
+                <a href="index.html#welcome" class="nav-link">首頁</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="https://www.lac.org.tw/civicrm/event/info?reset=1&id=333&fbclid=IwY2xjawNeb6VleHRuA2FlbQIxMABicmlkETF4OGFTWmVTMHhLaUpDOGx3AR6q6xsBPZu-OjIhsusvEmBL0Ci89hCj36RqXlxY9-15IkdUd_UHBhtIuWm5zg_aem__0tarJo_vpHy5iiSkS1X1A" class="nav-link" target="_blank">會議報名</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="organization.html" class="nav-link">會議組織</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議徵稿資訊</a>
+                <div class="dropdown-menu">
+                  <a href="index.html#cfp" class="dropdown-item">會議徵稿主題</a>
+                  <a href="index.html#type" class="dropdown-item">會議徵稿種類</a>
+                  <a href="index.html#submission" class="dropdown-item">稿件格式與提交</a>
                 </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">會議資訊</a>
+                <div class="dropdown-menu">
+                  <a href="index.html#welcome" class="dropdown-item">會議議程</a>
+                  <a href="index.html#welcome" class="dropdown-item">專題演講</a>
+                  <a href="admit.html" class="dropdown-item">論文錄取名單</a>
+                  <a href="index.html#welcome" class="dropdown-item">實務論壇</a>
+                  <a href="index.html#welcome" class="dropdown-item">國科會研究成果海報展</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="https://easychair.org/conferences/?conf=colisp2025" class="nav-link" target="_blank">論文投稿</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="index.html#hotels" class="nav-link">會議場地</a>
+              </div>
+              <div class="nav-item dropdown">
+                <a href="index.html#welcome" class="nav-link">參展廠商</a>
+              </div>
             </div>
-            <!-- Nav Bar End -->	                                                         
+            <div class="ml-auto">
+              <a class="btn" href="https://www.lac.org.tw/civicrm/event/info?reset=1&id=333&fbclid=IwY2xjawNeb6VleHRuA2FlbQIxMABicmlkETF4OGFTWmVTMHhLaUpDOGx3AR6q6xsBPZu-OjIhsusvEmBL0Ci89hCj36RqXlxY9-15IkdUd_UHBhtIuWm5zg_aem__0tarJo_vpHy5iiSkS1X1A" target="_blank">會議報名</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav Bar End -->                                                         
     <div class="content" id="content">   	
       <div class="wrapper">
 		   	<div class="header">		
@@ -191,10 +196,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>第四屆圖書資訊學術與實務研討會議程</h2>
+                            <h2>第五屆圖書資訊學術與實務研討會議程</h2>
                         </div>
                         <div class="col-12">
-                            <a title="會議手冊" target="_blank" href="/colisp2024/pdf/CoLISP2024.pdf" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5em; font-size: 32px;">
+                            <a title="會議手冊" target="_blank" href="/colis" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5em; font-size: 32px;">
                               <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="32" height="32">
                                 <path d="M14 2.26953V6.40007C14 6.96012 14 7.24015 14.109 7.45406C14.2049 7.64222 14.3578 7.7952 14.546 7.89108C14.7599 8.00007 15.0399 8.00007 15.6 8.00007H19.7305M16 13H8M16 17H8M10 9H8M14 2H8.8C7.11984 2 6.27976 2 5.63803 2.32698C5.07354 2.6146 4.6146 3.07354 4.32698 3.63803C4 4.27976 4 5.11984 4 6.8V17.2C4 18.8802 4 19.7202 4.32698 20.362C4.6146 20.9265 5.07354 21.3854 5.63803 21.673C6.27976 22 7.11984 22 8.8 22H15.2C16.8802 22 17.7202 22 18.362 21.673C18.9265 21.3854 19.3854 20.9265 19.673 20.362C20 19.7202 20 18.8802 20 17.2V8L14 2Z" stroke-linecap="round" stroke-linejoin="round"/>
                               </svg>
@@ -208,23 +213,21 @@
         <!-- section: conference agenda -->
           <section class="agenda" id="age">  
 	    <ul class="agenda-square-list">
-	      <li>會議日期：113年12月13-14日</li>
+	      <li>會議日期：114年11月21-22日</li>
 	      <li>會議地點：國家圖書館</li>
-	      <li>主辦單位：中華民國圖書館學會<br>&emsp;&emsp;&emsp;&emsp;&emsp;中華圖書資訊學教育學會<br>&emsp;&emsp;&emsp;&emsp;&emsp;國家圖書館<br>&emsp;&emsp;&emsp;&emsp;&emsp;國立臺灣師範大學圖書資訊學研究所<br>&emsp;&emsp;&emsp;&emsp;&emsp;國立政治大學圖書資訊與檔案學研究所</li>
-	      <li>協辦單位：國家圖書館</li>
 	    </ul>
 
 		  
 	    <div class="button-container">
-   	     <a href="/colisp2024/agenda.html" class="button">第一天 12/13</a>
-   	     <a href="/colisp2024/agendad2.html" class="button">第二天 12/14</a>
+   	     <a href="/colisp2024/agenda.html" class="button">第一天 11/21</a>
+   	     <a href="/colisp2024/agendad2.html" class="button">第二天 11/22</a>
 	    </div>
 	    <div style="clear: both;"></div>	     
 		  
 	   <table class="agenda-table">	 	
             <thead>
              <th class="day-header" colspan="6">
-                <h1 class="day-title">第一天：113年12月13日(星期五)</h1>
+                <h1 class="day-title">第一天：114年11月21日(星期五)</h1>
              </th>
             </thead>
             <tbody>
@@ -237,12 +240,11 @@
 		</th>
    	     </tr>
    	     <tr>
-                <th style="vertical-align: middle;text-align: center;background-color: white;">09:00</th>
+                <th style="vertical-align: middle;text-align: center;background-color: white;">08:30 – 09:20</th>
                 <td class="agenda-cell" colspan="3">
                   <p>報到</p>
 		</td>
-		<th rowspan="12" style="min-width: 170px;text-align: center; font-size: 1.2em; vertical-align: middle;">10:30-16:50<br>國科會研究<br>成果海報展<br>(一樓展覽廳)<br>
-			<a href="/colisp2024/poster.html">海報展議程</a>
+		<th rowspan="12" style="min-width: 170px;text-align: center; font-size: 1.2em; vertical-align: middle;">9:00-14:00<br>中華民國圖書館學會第59屆理監事選舉投票<br>(三樓國際會 議廳貴賓室)<br><br><br>09:00-17:00<br>圖書資訊展<br>(三樓國際會議廳川堂)<br><br><br>10:00-16:00<br>圖書館實務海報展(一樓展覽廳)
 		</th>     
    	     </tr>
    	     <tr>
@@ -250,137 +252,97 @@
                 <td colspan="3" style="text-align: center; background-color: white; font-size: 24px;">
                   <p>開幕</p>
                   <p>中華民國圖書館學會 柯皓仁理事長</p>
-                  <p>中華圖書資訊學教育學會 林巧敏理事長</p>
-		  <p>國家圖書館 王涵青館長</p>
+                  <p>國家圖書館 王涵青館長</p>
                 </td>
    	     </tr>
    	     <tr>
-                <th style="vertical-align: middle;text-align: center;background-color: white;">09:30-10:20</th>
+                <th style="vertical-align: middle;text-align: center;background-color: white;">09:30-10:30</th>
                 <td colspan="3" style="text-align: left;background-color: white;">
 		  <p><strong>Keynote 1</strong></p>
-                  <p style="margin: 0; line-height: 1.2;">講題：AI賦能之圖書館創新服務發展與未來挑戰                  
-                  <a href="/colisp2024/pdf/AI賦能之圖書館創新服務發展與未來挑戰.pdf" target="_blank" rel="noopener noreferrer">
+                  <p style="margin: 0; line-height: 1.2;">講題：Vision 2030: A Democratic, Equitable, & Vibrant San Francisco for Everyone                 
+                  <a href="" target="_blank" rel="noopener noreferrer">
                     <svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.5 14.5H10C10 14.7022 10.1218 14.8845 10.3087 14.9619C10.4955 15.0393 10.7106 14.9966 10.8536 14.8536L10.5 14.5ZM10.5 10.5V10C10.2239 10 10 10.2239 10 10.5H10.5ZM14.5 10.5L14.8536 10.8536C14.9966 10.7106 15.0393 10.4955 14.9619 10.3087C14.8845 10.1218 14.7022 10 14.5 10V10.5ZM1.5 1H13.5V0H1.5V1ZM1 13.5V1.5H0V13.5H1ZM14 1.5V10.0858H15V1.5H14ZM10.0858 14H1.5V15H10.0858V14ZM13.8536 10.4393L10.4393 13.8536L11.1464 14.5607L14.5607 11.1464L13.8536 10.4393ZM10.0858 15C10.4836 15 10.8651 14.842 11.1464 14.5607L10.4393 13.8536C10.3456 13.9473 10.2184 14 10.0858 14V15ZM14 10.0858C14 10.2184 13.9473 10.3456 13.8536 10.4393L14.5607 11.1464C14.842 10.8651 15 10.4836 15 10.0858H14ZM0 13.5C0 14.3284 0.671573 15 1.5 15V14C1.22386 14 1 13.7761 1 13.5H0ZM13.5 1C13.7761 1 14 1.22386 14 1.5H15C15 0.671573 14.3284 0 13.5 0V1ZM1.5 0C0.671573 0 0 0.671574 0 1.5H1C1 1.22386 1.22386 1 1.5 1V0ZM11 14.5V10.5H10V14.5H11ZM10.5 11H14.5V10H10.5V11ZM14.1464 10.1464L10.1464 14.1464L10.8536 14.8536L14.8536 10.8536L14.1464 10.1464ZM3 4H12V3H3V4Z" fill="black"/>
                     </svg>
                   </a>
-		  </p>
-                  <p style="margin: 0; line-height: 1.2;">講者：陳志銘特聘教授(國立政治大學圖書資訊與檔案學研究所)
-                  <p style="margin: 0; line-height: 1.2;">主持人：柯皓仁理事長</p>
+		          </p>
+                  <p style="margin: 0; line-height: 1.2;">講者：Michael Lambert, City Librarian（San Francisco, USA）
+                  <p style="margin: 0; line-height: 1.2;">國家圖書館館長 王涵青</p>
                   <p style="margin: 0; line-height: 1.2;">(會場一：國際會議廳)</p>
                 </td>
    	     </tr>
    	     <tr>
-                <th style="vertical-align: middle;text-align: center;background-color: white;">10:20-10:30</th>
+                <th style="vertical-align: middle;text-align: center;background-color: white;">10:30-10:40</th>
                 <td class="agenda-cell" colspan="3">
                   <p style="background-color: #D3D3D3">大合照</p>
-		</td>
+		 </td>
    	     </tr>
+         <tr>
+                <th style="vertical-align: middle;text-align: center;background-color: white;">10:40-12:00</th>
+                                <!-- <td colspan="3" style="text-align: left;background-color: white;"> -->
+                                    <td colspan="4" style="text-align: left;background-color: white;">
+                                    <p><strong>中華民國圖書館學會會員大會</strong></p>
+                                    <p style="margin: 0; line-height: 1.2;">各項獎勵、獎學金、會務報告、提案討論</p>
+                                    <p style="margin: 0; line-height: 1.2;">(會場一：國際會議廳)</p>
+         </tr>
+   	     <tr>
+                <th style="text-align: center;vertical-align: middle;background-color: white;">12:00-13:30</th>
+                <td class="agenda-cell" colspan="3">
+                  <p>午餐</p>
+		 </td>
+   	     </tr>
+
    	     <tr>
                 <th style="vertical-align: middle; text-align: center; width: 3%;background-color: white;"></th>
                 <th style="vertical-align: middle; text-align: center; width: 28%;">會場一(3F)<br>國際會議廳</th>
                 <th style="vertical-align: middle; text-align: center; width: 20%;">會場二(1F)<br>129簡報室</th>
                 <th style="vertical-align: middle; text-align: center; width: 20%;">會場三(3F)<br>301會議室</th>
    	     </tr>
-                <th style="text-align: center;vertical-align: middle;background-color: white;">10:30–12:00</th>
-                <td style="vertical-align: top; text-align: left;">
-                       <p style="line-height: 1.2;">10:30 – 10:50<br></p>
-                       <p style="line-height: 1.2;"><strong>中華圖書資訊學教育學會第16屆第1次會員大會</strong></p>
-                       <p style="line-height: 1.2;">會務報告、提案討論、頒發獎學金<br></p>
-                       <p style="line-height: 1.2;">10:50 – 12:00</p>
-                       <p style="line-height: 1.2;"><strong>圖書資訊學未來教育論壇</strong></p>
-                       <p style="line-height: 1;">主持人：林巧敏理事長</p>
-                       <p style="line-height: 1;">與談人：（依報告人姓名筆畫順序）</p>
-                       <p style="line-height: 1;">林雯瑤 淡江大學資訊與圖書館學系主任</p>
-                       <p style="line-height: 1;">柯皓仁 臺灣師範大學圖書資訊學研究所所長</p>
-                       <p style="line-height: 1;">張郁蔚 臺灣大學圖書資訊學系主任</p>
-                       <p style="line-height: 1;">莊道明 世新大學資訊傳播學系主任</p>
-                       <p style="line-height: 1;">陳志銘 政治大學圖書資訊與檔案學研究所所長</p>
-                       <p style="line-height: 1;">湯凱喻 中興大學圖書資訊學研究所所長</p>
-                       <p style="line-height: 1;">黃元鶴 輔仁大學圖書資訊學系教授（代理系主任報告）</p>
-			
-                <td style="vertical-align: top; text-align: left;"><strong>論文 場次1</strong>
-                       <p>主持人：鄭有容助理教授</p>
-                   <ol>
-                       <li>郭舒文、楊平、曾元顯。運用大型語言模型分析國小資優生獨立研究報告的參考文獻特徵</li>
-                       <li>陳嘉勇、陳光華。 資訊系統被圖書館採用的成功模式研究</li>
-		       <li>楊幸怡、羅崇銘。以知識圖譜呈現醫學報告中的影像詮釋傾向</li> 
-                   </ol>
+	 	<td style="vertical-align: top; text-align: left;"><strong>實務論壇場次 1</strong>
+                <p>主持人：</p>
+                 <ol>
+                    <li></li>		 
+                 </ol>
+         </td>
+	 	<td style="vertical-align: top; text-align: left;"><strong>實務論壇場次 2</strong>
+                <p>主持人：</p>
+                 <ol>
+                    <li></li>		 
+                 </ol>
+         </td>
+	 	<td style="vertical-align: top; text-align: left;"><strong>實務論壇場次 3</strong>
+                <p>主持人：</p>
+                 <ol>
+                    <li></li>		 
+                 </ol>
+         </td>		
 
-	     </td>
-   	     <tr>
-                <th style="text-align: center;vertical-align: middle;background-color: white;">12:00-13:30</th>
-                <td class="agenda-cell" colspan="3">
-                  <p>午餐</p>
-		</td>
-   	     </tr>
-   	     <tr>
-                <th style="text-align: center;vertical-align: middle;background-color: white;">13:30-15:00</th>
-                <td style="vertical-align: top; text-align: left;"><strong>論文 場次2</strong>
-                <p>主持人：陳世娟副教授</p>
-                 <ol>
-                    <li>黃元鶴。臺灣大專校院圖書館之人工智慧應用實例與發展：「AI圖書館化」或是「圖書館AI化」？</li>
-                    <li>邱子恒。我國大型醫學圖書館研究支持服務現況之研究</li>
-                    <li>田嘉楷、鄭怡玲。以科技接受模型探討圖書資訊專業背景人員可解釋性人工智慧使用意願之研究</li>
-                    <li>陳漫蓉、曾品方。行動書車營運模式之研究：以花蓮縣秀林鄉立圖書館為例</li>
-                 </ol>
-                </td>
-                <td style="vertical-align: top; text-align: left;"><strong>論文 場次3</strong>
-                <p>主持人：吳怡瑾教授</p>
-                 <ol>
-                    <li>林巧敏、黃鈺婷。檔案檢索系統設計數位人文功能之易用性評估</li>
-                    <li>陳世萱、蔡天怡。圖書資訊領域大學應屆畢業生初任求職情境中的資訊世界</li>
-		    <li>高曼容、邱銘心。30至49歲女性乳癌患者之資訊焦慮與因應行為研究</li>
-		    <li>黃鳳媚。學術研究人員之資訊搜尋行為：文獻回顧和分析</li>
-                 </ol>
-                </td>
-                <td style="vertical-align: top; text-align: left;"><strong>論文 場次4</strong>
-                <p>主持人：林雯瑤教授</p>
-                 <ol>
-                    <li>黎舫安、張郁蔚。期刊同儕審查方式轉變與作者國家來源關係之初探：以Journal of Philosophy為例</li>
-                    <li>林俐媛、張郁蔚。ESCI資訊計量學期刊的國際化趨勢探討</li>
-		    <li>李沛錞、朱家葆。探索我國人工智慧技術研究計畫的資源配置與創新：基於資源基礎觀點</li>
-                 </ol>
-                </td>
-   	     </tr>
    	     <tr>
                 <th style="vertical-align: middle;text-align: center;background-color: white;">15:00-15:20</th>
                 <td class="agenda-cell" colspan="3">
                   <p style="background-color: #D3D3D3">茶敍</td>
    	     </tr>
+				
    	     <tr>
-                <th style="vertical-align: middle;text-align: center;background-color: white;">15:20-16:50</th>
-		<td style="vertical-align: top; text-align: left;"><strong>論文 場次5</strong>
-                <p>主持人：陳亞寧副教授</p>
-                 <ol>
-                    <li>李沛錞、陳芝彧。公共圖書館與社區組織的協同發展：整合社會資本與資源依賴理論觀點</li>
-                    <li>陳姿庭、曾品方。書目療法融入國小體育班閱讀教學之行動研究</li>
-		    <li>陳書梅、蔡美芳。電影療法之成效研究—以情緒耗竭之臺灣圖書館員為例</li>
-		    <li>邱炯友。應用於圖書資訊服務之聖經書目療法研究：理論與實務之整合（國科會成果發表）</li>		 
-                 </ol>
+                <th style="vertical-align: middle;text-align: center;background-color: white;">15:20-16:20</th>
+                <td colspan="3" style="text-align: left;background-color: white;">
+		  <p><strong>Keynote 2</strong></p>
+                  <p style="margin: 0; line-height: 1.2;">講題：馬來西亞圖書館的機會與挑戰             
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 14.5H10C10 14.7022 10.1218 14.8845 10.3087 14.9619C10.4955 15.0393 10.7106 14.9966 10.8536 14.8536L10.5 14.5ZM10.5 10.5V10C10.2239 10 10 10.2239 10 10.5H10.5ZM14.5 10.5L14.8536 10.8536C14.9966 10.7106 15.0393 10.4955 14.9619 10.3087C14.8845 10.1218 14.7022 10 14.5 10V10.5ZM1.5 1H13.5V0H1.5V1ZM1 13.5V1.5H0V13.5H1ZM14 1.5V10.0858H15V1.5H14ZM10.0858 14H1.5V15H10.0858V14ZM13.8536 10.4393L10.4393 13.8536L11.1464 14.5607L14.5607 11.1464L13.8536 10.4393ZM10.0858 15C10.4836 15 10.8651 14.842 11.1464 14.5607L10.4393 13.8536C10.3456 13.9473 10.2184 14 10.0858 14V15ZM14 10.0858C14 10.2184 13.9473 10.3456 13.8536 10.4393L14.5607 11.1464C14.842 10.8651 15 10.4836 15 10.0858H14ZM0 13.5C0 14.3284 0.671573 15 1.5 15V14C1.22386 14 1 13.7761 1 13.5H0ZM13.5 1C13.7761 1 14 1.22386 14 1.5H15C15 0.671573 14.3284 0 13.5 0V1ZM1.5 0C0.671573 0 0 0.671574 0 1.5H1C1 1.22386 1.22386 1 1.5 1V0ZM11 14.5V10.5H10V14.5H11ZM10.5 11H14.5V10H10.5V11ZM14.1464 10.1464L10.1464 14.1464L10.8536 14.8536L14.8536 10.8536L14.1464 10.1464ZM3 4H12V3H3V4Z" fill="black"/>
+                    </svg>
+                  </a>
+		          </p>
+                  <p style="margin: 0; line-height: 1.2;">講者：Ghazali Mohamed Fadzil（馬來西亞圖書館館員協會會長）
+                  <p style="margin: 0; line-height: 1.2;">中華民國圖書館學會 柯皓仁理事長</p>
+                  <p style="margin: 0; line-height: 1.2;">(會場一：國際會議廳)</p>
                 </td>
-		<td style="vertical-align: top; text-align: left;"><strong>論文 場次6</strong>
-                <p>主持人：陳光華教授</p>
-                 <ol>
-                    <li>劉祖恩、鄭琨鴻。聊天機器⼈之讀者體驗研究：以國立公共資訊圖書館為例</li>
-                    <li>邵僅、林巧敏。特種檔案核心人物及組織詞彙共現分析</li>
-		    <li>白孟璇、鄭有容。基於自然語言處理探究我國閱讀推動教育的時空發展：以臺北市閱讀績優評選計畫為例</li>
-		    <li>黃子軒、王筱鈞、杜海倫、闕可欣。 以ChatGPT進行醫療暴力主題回饋分數預測之初探</li>		 
-                 </ol>
-            </td>
-            <td style="vertical-align: top; text-align: left;"><strong>論文 場次7</strong>
-                <p>主持人：林奇秀教授</p>
-                 <ol>
-                    <li>田野、陳光華。圖書資訊學領域的學術替代性職業： 中國大陸情境下的演化模式與發展前景</li>
-                    <li>張郁蔚、林湘柔。圖書資訊學領域之博物館研究特性初探</li>
-		    <li>龔昕穎。從Reader到Player：以高雄市立圖書館「瓦悠島傳說」導覽解謎遊戲為例</li>		 
-                 </ol>
-            </td>
-            </tr>
+   	     </tr>
             <tr>
-            <th style="vertical-align: middle;text-align: center;background-color: white;">16:50-17:00</th>
+            <th style="vertical-align: middle;text-align: center;background-color: white;">16:20-16:40</th>
             <td class="agenda-cell" colspan="3">
-                <p><strong>Best Paper Award</strong>(最佳論文獎)</p>
+                <p><strong>圖書館實務海報獎頒獎</strong>
                 <p>(會場一：國際會議廳)</p>
             </td>
             </tr>
@@ -391,66 +353,81 @@
 	          <hr style="border: 1px solid #030f27; margin-top: 50px; margin-bottom: 10px;"/>
 	      
         <footer class="footer">
-	<!-- Hosted -->
-          <section class="Hosted" id="Hosted">
-            <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
-              <h2>主辦單位</h2>	    
+        <!-- Hosted -->
+        <section class="Hosted" id="Hosted">
+          <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+            <h2>主辦單位</h2>
+          </div>
+          <div class="image-container"style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;">
+            
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/NCL_logo_.png" alt="Image 5"style="max-width: 100%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">國家圖書館</p>
             </div>
-	   <div class="image-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;">
-     	      <div style="flex: 0 0 45%; margin: 10px;">
-           	    <img src="/colisp2024/img/LAROC_logo.png" alt="Image 1" style="max-width: 100%; height: auto;" />
-		    <p style="font-size: 24px; text-align: center;">中華民國圖書館學會</p>
-	      </div>
-              <div style="flex: 0 0 45%; margin: 10px;">
-                    <img src="/colisp2024/img/CALISE_logo.png" alt="Image 2" style="max-width: 100%; height: auto;" />
-		    <p style="font-size: 24px; text-align: center;">中華圖書資訊學教育學會</p>  
-	      </div>
-	      <div style="margin: 10px; text-align: center;">
-           	    <img src="/colisp2024/img/NCL_logo_.png" alt="Image 5"style="max-width: 70%; height: auto;" />
-           	     <p style="font-size: 24px;">國家圖書館</p>
-	      </div>
-     	      <div style="flex: 0 0 45%; margin: 10px;">
-           	    <img src="/colisp2024/img/NTNU_logo.png" alt="Image 3" style="height: 100px; width: auto;" />
-		    <p style="font-size: 24px; text-align: center;">國立臺灣師範大學圖書資訊學研究所</p>
-	      </div>
-              <div style="flex: 0 0 45%; margin: 10px;">
-                    <img src="/colisp2024/img/NCCU_logo.jpg" alt="Image 4" style="height: 100px; width: auto;" />
-		    <p style="font-size: 24px; text-align: center;">國立政治大學圖書資訊與檔案學研究所</p><br>  
-	      </div>
-            <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
-              <h2>協辦單位</h2>	    
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/TKU_logo.png" alt="Image 7" style="max-width: 100%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">淡江大學資訊與圖書館學系</p>
             </div>
-              <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
-                    <div style="margin: 10px; text-align: center;">
-                      <img src="/colisp2024/img/NSTC_LOGO.png" alt="Image 6" style="max-width: 70%; height: auto;" />
-                      <p style="font-size: 24px;">國家科學及技術委員會</p>
-                    </div>
-              </div>
-	   </div>
-          </section>  
-        </footer>
-      </div>
+            
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/LAROC_logo.png" alt="Image 1" style="max-width: 110%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">中華民國圖書館學會</p>
+            </div>
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/CALISE_logo.png" alt="Image 2" style="max-width: 100%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">中華圖書資訊學教育學會</p>
+            </div>
+
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/NTNU_logo.png" alt="Image 3" style="height: 100px; width: auto;" />
+              <p style="font-size: 24px; text-align: center;">國立臺灣師範大學圖書資訊學研究所</p>
+            </div>
+            <div style="flex: 0 0 45%; margin: 10px;">
+              <img src="img/NCCU_logo.jpg" alt="Image 4" style="max-width: 100%; height: auto;" />
+              <p style="font-size: 24px; text-align: center;">國立政治大學圖書資訊與檔案學研究所</p><br>
+            </div>
+            
+            <div class="section-header" style="border-top-width:20px; padding-top:20px; text-align: center;">
+              <h2>協辦單位</h2>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+                <div style="margin: 10px; text-align: center;">
+                  <img src="/colisp2025/img/NSTC_LOGO.png" alt="Image 6" style="max-width: 70%; height: auto;" />
+                  <p style="font-size: 24px;">國家科學及技術委員會</p>
+                </div>
+            </div>
+         
+          </div>
+        </section>
+      </footer>
     </div>
-    <a href="#welcome" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  </div>   
+  </div>
+  <a href="#welcome" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
 
-        <!-- JavaScript Libraries -->
+  <!-- JavaScript Libraries -->
 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!---->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--<script src="lib/lightbox/js/lightbox.min.js"></script> -->
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/slick/slick.min.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>  
- </body>
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
+
 
 
 
