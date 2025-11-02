@@ -764,7 +764,7 @@ td {
     font-size: 36px;
     color: #fdbe33;
     background-color: #030f27;
-    width: 15%;
+    width: 10%;
 }
 
 .agenda-header {
@@ -1266,6 +1266,7 @@ h1, h2, h3 {
   border: 1px solid #030f27;
   margin-top: 5px;
 }
+
 
 
 
