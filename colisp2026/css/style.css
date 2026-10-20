@@ -1206,7 +1206,7 @@ h1, h2, h3 {
 /* 設定「作者」欄位的寬度 */
 .admit-container .poster th:nth-child(1),
 .admit-container .poster td:nth-child(1) {
-    width: 40%;
+    width: 35%;
 }
 
 .admit-container a {
