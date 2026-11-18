@@ -779,6 +779,10 @@ td {
     background-color: #D3D3D3;
 }
 
+.agenda-cellx {
+    background-color: #FFFFFF;
+}
+
 .agenda-cell p, .agenda-cell ol {
     font-size: 24px;	
     margin: 0;
